@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://status.packit.dev/issues/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2022-07-01-team-on-vacation/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/affected/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/affected/workers/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2022-02-03-networking-issue/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2022-02-01-outage/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-12-08-new-production-deployment/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-12-07-response-delays/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/affected/dashboard/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-11-18-production-db-problems/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/affected/api/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-11-16-auto-prod/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-09-08-outage/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-08-27-outage/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-07-56-vacation/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-06-28-vacation/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-06-04-postgresql-12/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/affected/copr/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/</loc>
+    <lastmod>2022-07-11T08:43:53+02:00</lastmod>
+  </url>
+  
+</urlset>

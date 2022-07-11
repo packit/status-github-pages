@@ -1,0 +1,41 @@
+{
+  "is": "system",
+  "title": "API",
+  "permalink": "https://status.packit.dev/affected/api/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Moving production Packit Service to a new cluster",
+        "createdAt": "2021-11-18 01:00:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-11-16-auto-prod/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-18 02:33:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2021-11-16-auto-prod.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dashboard - unable to connect",
+        "createdAt": "2021-06-02 11:16:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-02 11:40:00",
+        "affected": ["API", "Dashboard"],
+        "filename": "2021-06-02-dashboard-unable-to-connect.md"
+      }
+    
+  ], 
+}
+
+
+
+
+

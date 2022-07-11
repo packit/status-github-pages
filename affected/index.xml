@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Affected on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2022-06-21T10:18:22+02:00</lastBuildDate>
+    <updated>2022-06-21T10:18:22+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Workers</title>
+        <link>https://status.packit.dev/affected/workers/</link>
+        <pubDate>Tue, 21 Jun 2022 10:18:22 +0200</pubDate>
+        <guid>https://status.packit.dev/affected/workers/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Dashboard</title>
+        <link>https://status.packit.dev/affected/dashboard/</link>
+        <pubDate>Thu, 18 Nov 2021 02:33:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/dashboard/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>API</title>
+        <link>https://status.packit.dev/affected/api/</link>
+        <pubDate>Thu, 18 Nov 2021 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/api/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Copr</title>
+        <link>https://status.packit.dev/affected/copr/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/copr/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+  </channel>
+</rss>

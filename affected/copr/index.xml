@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Copr on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/copr/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/copr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Upgrade of Copr Servers</title>
+        <link>https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/</guid>
+        <category>2022-06-22T16:10:00&#43;02:00</category>
+        <description>Due to an ongoing upgrade of the Fedora Copr Servers, building might be delayed or failing. The upgrade should last ~3 hours.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/10780&#34;&gt;ongoing
+upgrade&lt;/a&gt; of the Fedora
+Copr Servers, building might be delayed or failing. The upgrade should last ~3
+hours.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

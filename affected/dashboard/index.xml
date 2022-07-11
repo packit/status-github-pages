@@ -1,0 +1,76 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Dashboard on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/dashboard/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2021-11-18T02:33:00+00:00</lastBuildDate>
+    <updated>2021-11-18T02:33:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Problems with production database</title>
+        <link>https://status.packit.dev/issues/2021-11-18-production-db-problems/</link>
+        <pubDate>Thu, 18 Nov 2021 02:33:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-18-production-db-problems/</guid>
+        <category>2021-11-19 00:10:00</category>
+        <description>After moving our production service to a new cluster, we&amp;rsquo;re seeing intermittent issues with connecting to the database. They are mostly manifesting in the dashboard. We need to decide next steps.</description>
+        <content type="html">&lt;p&gt;After moving our production service to a new cluster, we&amp;rsquo;re seeing intermittent issues
+with connecting to the database. They are mostly manifesting in the dashboard.
+We need to decide next steps.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Moving production Packit Service to a new cluster</title>
+        <link>https://status.packit.dev/issues/2021-11-16-auto-prod/</link>
+        <pubDate>Thu, 18 Nov 2021 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-16-auto-prod/</guid>
+        <category>2021-11-18 02:33:00</category>
+        <description>We are going to move deployment of our production Packit Service to a new cluster. It should take about 1/2 an hour, during which the workers will be down and queries to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated. Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are up again.</description>
+        <content type="html">&lt;p&gt;We are going to move deployment of our production Packit Service to a new cluster.
+It should take about 1/2 an hour, during which the workers will be down and queries
+to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated.
+Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are
+up again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] PostgreSQL db upgrade</title>
+        <link>https://status.packit.dev/issues/2021-06-04-postgresql-12/</link>
+        <pubDate>Fri, 04 Jun 2021 07:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-04-postgresql-12/</guid>
+        <category>2021-06-04 09:10:40&#43;00:00</category>
+        <description>Upgrading our PostgreSQL database from version 10 to version 12.</description>
+        <content type="html">&lt;p&gt;Upgrading our PostgreSQL database from version 10 to version 12.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Dashboard - unable to connect</title>
+        <link>https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/</link>
+        <pubDate>Wed, 02 Jun 2021 11:16:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/</guid>
+        <category>2021-06-02 11:40:00</category>
+        <description>API was down and therefore Dashboard was not showing any Jobs and after some time a &amp;ldquo;unable to connect &amp;hellip;&amp;rdquo; error was shown.
+Cause: Unknown
+Fix: After restarting the API, the Dashboard started to work OK.</description>
+        <content type="html">&lt;p&gt;&lt;strong&gt;API&lt;/strong&gt; was down and therefore &lt;strong&gt;Dashboard&lt;/strong&gt; was not showing any Jobs
+and after some time a &amp;ldquo;unable to connect &amp;hellip;&amp;rdquo; error was shown.&lt;/p&gt;
+&lt;p&gt;Cause:
+Unknown&lt;/p&gt;
+&lt;p&gt;Fix:
+After restarting the API, the Dashboard started to work OK.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

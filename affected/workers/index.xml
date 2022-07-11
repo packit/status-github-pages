@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Workers on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/workers/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2022-06-21T10:18:22+02:00</lastBuildDate>
+    <updated>2022-06-21T10:18:22+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/workers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] SRPM builds done in Copr are failing</title>
+        <link>https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/</link>
+        <pubDate>Tue, 21 Jun 2022 10:18:22 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/</guid>
+        <category>2022-06-21T11:10:22&#43;02:00</category>
+        <description>SRPM builds happening in Copr (for packages using the srpm_build_deps config key) are failing due to a dependency issue. We are working on a fix.</description>
+        <content type="html">&lt;p&gt;SRPM builds happening in Copr (for packages using the &lt;code&gt;srpm_build_deps&lt;/code&gt; config
+key) are failing due to a dependency issue. We are working on a fix.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Longer response times</title>
+        <link>https://status.packit.dev/issues/2021-12-07-response-delays/</link>
+        <pubDate>Tue, 07 Dec 2021 09:06:14 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2021-12-07-response-delays/</guid>
+        <category>2021-12-07T11:49:14&#43;01:00</category>
+        <description>Our service got overwhelmed by the events coming from a Fedora dist-git (caused by the epel-9 branching) causing the longer responses.
+We have scaled up the workers and the queue is getting shorter. We are planning the next steps to be resilient next time. Sorry about the disturbance.
+update: The queue is now empty and you can expect regular operational times.</description>
+        <content type="html">&lt;p&gt;Our service got overwhelmed by the events coming from a Fedora dist-git (caused by the &lt;code&gt;epel-9&lt;/code&gt; branching) causing the longer responses.&lt;/p&gt;
+&lt;p&gt;We have scaled up the workers and the queue is getting shorter.
+We are planning the next steps to be resilient next time. Sorry about the disturbance.&lt;/p&gt;
+&lt;p&gt;update: The queue is now empty and you can expect regular operational times.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Moving production Packit Service to a new cluster</title>
+        <link>https://status.packit.dev/issues/2021-11-16-auto-prod/</link>
+        <pubDate>Thu, 18 Nov 2021 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-16-auto-prod/</guid>
+        <category>2021-11-18 02:33:00</category>
+        <description>We are going to move deployment of our production Packit Service to a new cluster. It should take about 1/2 an hour, during which the workers will be down and queries to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated. Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are up again.</description>
+        <content type="html">&lt;p&gt;We are going to move deployment of our production Packit Service to a new cluster.
+It should take about 1/2 an hour, during which the workers will be down and queries
+to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated.
+Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are
+up again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] PostgreSQL db upgrade</title>
+        <link>https://status.packit.dev/issues/2021-06-04-postgresql-12/</link>
+        <pubDate>Fri, 04 Jun 2021 07:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-04-postgresql-12/</guid>
+        <category>2021-06-04 09:10:40&#43;00:00</category>
+        <description>Upgrading our PostgreSQL database from version 10 to version 12.</description>
+        <content type="html">&lt;p&gt;Upgrading our PostgreSQL database from version 10 to version 12.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

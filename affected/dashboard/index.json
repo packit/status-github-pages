@@ -1,0 +1,69 @@
+{
+  "is": "system",
+  "title": "Dashboard",
+  "permalink": "https://status.packit.dev/affected/dashboard/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Problems with production database",
+        "createdAt": "2021-11-18 02:33:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-11-18-production-db-problems/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-19 00:10:00",
+        "affected": ["Dashboard"],
+        "filename": "2021-11-18-production-db-problems.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Moving production Packit Service to a new cluster",
+        "createdAt": "2021-11-18 01:00:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-11-16-auto-prod/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-18 02:33:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2021-11-16-auto-prod.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "PostgreSQL db upgrade",
+        "createdAt": "2021-06-04 07:00:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-06-04-postgresql-12/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-04 09:10:40+00:00",
+        "affected": ["Workers", "Dashboard"],
+        "filename": "2021-06-04-postgresql-12.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dashboard - unable to connect",
+        "createdAt": "2021-06-02 11:16:00 +0000 UTC",
+        "lastMod": "2022-07-11 08:43:53 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-02 11:40:00",
+        "affected": ["API", "Dashboard"],
+        "filename": "2021-06-02-dashboard-unable-to-connect.md"
+      }
+    
+  ], 
+}
+
+
+
+
+
