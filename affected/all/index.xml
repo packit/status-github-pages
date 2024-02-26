@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>all on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/all/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2023-08-21T14:45:00+02:00</lastBuildDate>
+    <updated>2023-08-21T14:45:00+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/all/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Packit outage now resolved</title>
+        <link>https://status.packit.dev/issues/2023-08-21-packit-outage/</link>
+        <pubDate>Mon, 21 Aug 2023 14:45:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-08-21-packit-outage/</guid>
+        <category>2023-08-21T15:15:00&#43;02:00</category>
+        <description>There has been a Packit outage now resolved. If your jobs are stuck, please retrigger them. We are sorry for the inconvenience.</description>
+        <content type="html">&lt;p&gt;There has been a Packit outage now resolved. If your jobs are stuck, please retrigger them.
+We are sorry for the inconvenience.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

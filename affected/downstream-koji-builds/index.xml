@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Downstream Koji builds on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/downstream-koji-builds/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-01-11T09:30:00+01:00</lastBuildDate>
+    <updated>2024-01-11T09:30:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/downstream-koji-builds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Outage of automatic triggering of downstream Koji builds</title>
+        <link>https://status.packit.dev/issues/2024-01-11-downstream-koji-builds-outage/</link>
+        <pubDate>Thu, 11 Jan 2024 09:30:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-01-11-downstream-koji-builds-outage/</guid>
+        <category>2024-01-15T15:20:00&#43;01:00</category>
+        <description>Since 2024-01-11 until 2024-01-15 downstream Koji builds weren&amp;rsquo;t automatically triggered due to Fedora Infrastructure changes. Please trigger your builds manually if you are affected.</description>
+        <content type="html">&lt;p&gt;Since 2024-01-11 until 2024-01-15 downstream Koji builds weren&amp;rsquo;t automatically triggered
+due to Fedora Infrastructure changes. Please &lt;a href=&#34;https://packit.dev/docs/fedora-releases-guide#retriggering-2&#34;&gt;trigger&lt;/a&gt;
+your builds manually if you are affected.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>
