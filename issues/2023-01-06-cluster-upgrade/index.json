@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "System upgrade scheduled",
+  "createdAt": "2023-01-06 10:00:00 +0000 UTC",
+  "lastMod": "2024-07-02 13:30:31 +0200 +0200",
+  "permalink": "https://status.packit.dev/issues/2023-01-06-cluster-upgrade/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-01-06T22:00:00+00:00",
+  "affected": [],
+  "filename": "2023-01-06-cluster-upgrade.md"
+}

@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "PostgreSQL db upgrade",
+  "createdAt": "2021-06-04 07:00:00 +0000 UTC",
+  "lastMod": "2024-07-02 13:30:31 +0200 +0200",
+  "permalink": "https://status.packit.dev/issues/2021-06-04-postgresql-12/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-06-04 09:10:40+00:00",
+  "affected": ["Workers", "Dashboard"],
+  "filename": "2021-06-04-postgresql-12.md"
+}
