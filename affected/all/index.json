@@ -1,0 +1,55 @@
+{
+  "is": "system",
+  "title": "all",
+  "permalink": "https://status.packit.dev/affected/all/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Outage ",
+        "createdAt": "2024-05-07 13:00:00 +0200 +0200",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2024-05-07-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-07T16:00:00+02:00",
+        "affected": ["all"],
+        "filename": "2024-05-07-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage ",
+        "createdAt": "2024-04-25 14:30:00 +0200 +0200",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2024-04-25-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-04-25T19:30:00+02:00",
+        "affected": ["all"],
+        "filename": "2024-04-25-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packit outage now resolved",
+        "createdAt": "2023-08-21 14:45:00 +0200 +0200",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2023-08-21-packit-outage/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-08-21T15:15:00+02:00",
+        "affected": ["all"],
+        "filename": "2023-08-21-packit-outage.md"
+      }
+    
+  ]
+}
+
+
+
+
+

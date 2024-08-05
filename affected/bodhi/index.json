@@ -1,0 +1,55 @@
+{
+  "is": "system",
+  "title": "Bodhi",
+  "permalink": "https://status.packit.dev/affected/bodhi/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-02-26 13:00:00 +0000 UTC",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-26T13:28:00+00:00",
+        "affected": ["Pull from upstream", "Propose downstream", "Koji", "Bodhi"],
+        "filename": "2024-02-26-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-01-22 22:00:00 +0100 +0100",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-01-23T21:00:00+01:00",
+        "affected": ["Workers", "Koji", "Bodhi"],
+        "filename": "2024-01-23-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Bodhi Updates not created",
+        "createdAt": "2023-05-04 11:30:00 +0200 +0200",
+        "lastMod": "2024-08-05 12:38:39 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2023-05-05-bodhi-updates/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-10T16:00:00+02:00",
+        "affected": ["Bodhi"],
+        "filename": "2023-05-05-Bodhi-updates.md"
+      }
+    
+  ]
+}
+
+
+
+
+
