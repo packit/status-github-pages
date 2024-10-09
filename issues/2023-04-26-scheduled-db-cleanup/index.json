@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Scheduled DB Cleanup",
+  "createdAt": "2023-04-26 04:40:00 +0000 UTC",
+  "lastMod": "2024-10-09 22:13:17 +0200 +0200",
+  "permalink": "https://status.packit.dev/issues/2023-04-26-scheduled-db-cleanup/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-04-26T05:17:00+00:00",
+  "affected": ["API", "Dashboard"],
+  "filename": "2023-04-26-scheduled-db-cleanup.md"
+}

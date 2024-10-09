@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Koji builds on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/koji-builds/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-02-21T21:00:00+00:00</lastBuildDate>
+    <updated>2024-02-21T21:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/koji-builds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Koji Outage</title>
+        <link>https://status.packit.dev/issues/2024-02-21-koji-outage/</link>
+        <pubDate>Wed, 21 Feb 2024 21:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-02-21-koji-outage/</guid>
+        <category>2024-02-22T00:00:00&#43;00:00</category>
+        <description>Planned Outage:
+Koji upgrade at 2024-02-21 21:00 UTC
+There will be an outage starting at 2024-02-21 21:00 UTC, which will last approximately 3 hours.
+Reason for outage:
+Koji will be upgraded to 1.34.0, which requires a schema update that touches many rows. Koji team estimate this will take about 45minutes to complete and during that time, Koji service will be completely offline.
+You should avoid to trigger Koji builds in Packit (e.</description>
+        <content type="html">&lt;p&gt;Planned Outage:&lt;/p&gt;
+&lt;p&gt;Koji upgrade at 2024-02-21 21:00 UTC&lt;/p&gt;
+&lt;p&gt;There will be an outage starting at 2024-02-21 21:00 UTC,
+which will last approximately 3 hours.&lt;/p&gt;
+&lt;p&gt;Reason for outage:&lt;/p&gt;
+&lt;p&gt;Koji will be upgraded to 1.34.0, which requires a schema update that touches many rows.
+Koji team estimate this will take about 45minutes to complete and during that time,
+Koji service will be completely offline.&lt;/p&gt;
+&lt;p&gt;You should avoid to trigger Koji builds in Packit (e.g. merging distgit Packit pull requests).
+You can retrigger the build, if it is missing, commenting a pull request with:&lt;/p&gt;
+&lt;p&gt;/packit koji-build&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>
