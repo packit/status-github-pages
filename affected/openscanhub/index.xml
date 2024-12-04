@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>OpenScanHub on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/openscanhub/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-11-01T08:00:00+01:00</lastBuildDate>
+    <updated>2024-11-01T08:00:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/openscanhub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] OpenScanHub outage</title>
+        <link>https://status.packit.dev/issues/2024-11-01-osh-outage/</link>
+        <pubDate>Fri, 01 Nov 2024 08:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-11-01-osh-outage/</guid>
+        <category>2024-11-04T21:00:00&#43;01:00</category>
+        <description>OpenScanHub service is having an outage resulting in scans submitted by Packit being stuck in a FREE state.
+You can monitor the progress of resolving the underlying issue here: https://pagure.io/fedora-infrastructure/issue/12160.</description>
+        <content type="html">&lt;p&gt;OpenScanHub service is having an outage resulting in scans submitted by Packit being stuck in a &lt;code&gt;FREE&lt;/code&gt; state.&lt;/p&gt;
+&lt;p&gt;You can monitor the progress of resolving the underlying issue here: &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12160&#34;&gt;https://pagure.io/fedora-infrastructure/issue/12160&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>
