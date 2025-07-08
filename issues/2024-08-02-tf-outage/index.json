@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Testing Farm outage",
+  "createdAt": "2024-08-02 06:00:00 +0200 +0200",
+  "lastMod": "2025-07-08 15:05:12 +0200 +0200",
+  "permalink": "https://status.packit.dev/issues/2024-08-02-tf-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-08-02T11:00:00+02:00",
+  "affected": ["Testing Farm"],
+  "filename": "2024-08-02-tf-outage.md"
+}
