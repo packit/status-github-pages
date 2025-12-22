@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Testing Farm on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/testing-farm/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-12-16T13:00:00+00:00</lastBuildDate>
+    <updated>2025-12-16T13:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/testing-farm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2025-12-16-tf-outage/</link>
+        <pubDate>Tue, 16 Dec 2025 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-12-16-tf-outage/</guid>
+        <category>2025-12-19T03:30:00&#43;00:00</category>
+        <description>Testing Farm had an outage caused by the provisioner going down. The outage has been addressed, you can see more details: https://status.testing-farm.io/issues/2025-12-16-public-ranch-outage/.
+Testing jobs should now be able to be processed, but there is a backlog of testing requests in Testing Farm, which may take a few hours to be processed.</description>
+        <content type="html">&lt;p&gt;Testing Farm had an outage caused by the provisioner going down. The outage has been addressed, you can see more details: &lt;a href=&#34;https://status.testing-farm.io/issues/2025-12-16-public-ranch-outage/&#34;&gt;https://status.testing-farm.io/issues/2025-12-16-public-ranch-outage/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Testing jobs should now be able to be processed, but there is a backlog of testing requests in Testing Farm, which may take a few hours to be processed.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2025-12-10-tf-outage/</link>
+        <pubDate>Wed, 10 Dec 2025 15:30:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-12-10-tf-outage/</guid>
+        <category>2025-12-10T20:08:00&#43;00:00</category>
+        <description>Testing Farm had an outage caused by a recent change in Copr frontend, affecting most of Testing Farm runs in Packit. The Copr team has applied a fix to resolve the issue. More details: https://status.testing-farm.io/issues/2025-12-10-public-ranch-requests-testing-against-copr-builds-are-broken/.
+If the jobs ended on error they can be retriggered by commenting /packit test in the corresponding pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm had an outage caused by a recent change in Copr frontend, affecting most of Testing Farm runs in Packit. The Copr team has applied a fix to resolve the issue. More details: &lt;a href=&#34;https://status.testing-farm.io/issues/2025-12-10-public-ranch-requests-testing-against-copr-builds-are-broken/&#34;&gt;https://status.testing-farm.io/issues/2025-12-10-public-ranch-requests-testing-against-copr-builds-are-broken/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the jobs ended on error they can be &lt;a href=&#34;https://packit.dev/docs/configuration/upstream/tests#restart-testing&#34;&gt;retriggered&lt;/a&gt; by commenting &lt;code&gt;/packit test&lt;/code&gt; in the corresponding pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2025-02-03-maintenance/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-02-03-maintenance/</guid>
+        <category>2025-02-03T15:25:00&#43;01:00</category>
+        <description>Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper redeployment without any inconsistencies.
+We expect an outage for up to 15 minutes. There will be no jobs processed from 2025-02-03 15:15 UTC till the successful redeployment.
+In case you are affected, please retrigger the jobs accordingly (via comments, or Re-Run button on GitHub Checks) once the outage is over.
+Thanks for the understanding.</description>
+        <content type="html">&lt;p&gt;Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper
+redeployment without any inconsistencies.&lt;/p&gt;
+&lt;p&gt;We expect an outage for up to 15 minutes. There will be no jobs processed from
+&lt;code&gt;2025-02-03 15:15 UTC&lt;/code&gt; till the successful redeployment.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comments,
+or Re-Run button on GitHub Checks) once the outage is over.&lt;/p&gt;
+&lt;p&gt;Thanks for the understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2024-10-09-maintenance/</link>
+        <pubDate>Wed, 09 Oct 2024 20:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-09-maintenance/</guid>
+        <category>2024-10-10T20:10:00&#43;02:00</category>
+        <description>Database volume needs to be enlarged to accomodate the load on the Packit Service. To minimize the amount of jobs affected by this maintenance there will be no jobs processed, but they should be enqueued until the outage is over.
+In case you are affected, please retrigger the jobs accordingly (via comment on the affected pull requests, or Re-Run button on GitHub Checks).
+Thanks for understanding.</description>
+        <content type="html">&lt;p&gt;Database volume needs to be enlarged to accomodate the load on the Packit
+Service. To minimize the amount of jobs affected by this maintenance there will
+be no jobs processed, but they should be enqueued until the outage is over.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comment on
+the affected pull requests, or Re-Run button on GitHub Checks).&lt;/p&gt;
+&lt;p&gt;Thanks for understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-10-01-tf-outage/</link>
+        <pubDate>Tue, 01 Oct 2024 10:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-01-tf-outage/</guid>
+        <category>2024-10-01T11:30:00&#43;02:00</category>
+        <description>Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state. You can watch the status of the outage here: https://status.testing-farm.io/issues/2024-10-01-public-ranch-outage/.
+If the jobs end on error they can be retriggered by commenting /packit test in the corresponding pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state.
+You can watch the status of the outage here: &lt;a href=&#34;https://status.testing-farm.io/issues/2024-10-01-public-ranch-outage/&#34;&gt;https://status.testing-farm.io/issues/2024-10-01-public-ranch-outage/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the jobs end on error they can be &lt;a href=&#34;https://packit.dev/docs/configuration/upstream/tests#restart-testing&#34;&gt;retriggered&lt;/a&gt; by commenting &lt;code&gt;/packit test&lt;/code&gt; in the corresponding pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-08-30-tf-outage/</link>
+        <pubDate>Fri, 30 Aug 2024 08:30:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-08-30-tf-outage/</guid>
+        <category>2024-08-30T13:30:00&#43;00:00</category>
+        <description>Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state. You can watch the status of the outage here: https://status.testing-farm.io/issues/2024-08-30-redhat-large-logs/.
+If the jobs end on error they can be retriggered by commenting /packit test in the corresponding pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state.
+You can watch the status of the outage here: &lt;a href=&#34;https://status.testing-farm.io/issues/2024-08-30-redhat-large-logs/&#34;&gt;https://status.testing-farm.io/issues/2024-08-30-redhat-large-logs/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the jobs end on error they can be &lt;a href=&#34;https://packit.dev/docs/configuration/upstream/tests#restart-testing&#34;&gt;retriggered&lt;/a&gt; by commenting &lt;code&gt;/packit test&lt;/code&gt; in the corresponding pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-08-28-tf-outage/</link>
+        <pubDate>Wed, 28 Aug 2024 12:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-08-28-tf-outage/</guid>
+        <category>2024-08-28T18:00:00&#43;02:00</category>
+        <description>Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state.
+The affected test jobs should be retriggered by commenting /packit test in the corresponding pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure is having an outage resulting in test jobs being stuck in queued state.&lt;/p&gt;
+&lt;p&gt;The affected test jobs should be &lt;a href=&#34;https://packit.dev/docs/configuration/upstream/tests#restart-testing&#34;&gt;retriggered&lt;/a&gt; by commenting &lt;code&gt;/packit test&lt;/code&gt; in the corresponding pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-08-05-tf-outage/</link>
+        <pubDate>Mon, 05 Aug 2024 08:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-08-05-tf-outage/</guid>
+        <category>2024-08-05T15:00:00&#43;02:00</category>
+        <description>Testing Farm Fedora images are outdated and public ranch requests processing paused.
+You can watch the status of the outage here: https://status.testing-farm.io/issues/2024-08-05-expired-images-f39-f40/.</description>
+        <content type="html">&lt;p&gt;Testing Farm Fedora images are outdated and public ranch requests processing paused.&lt;/p&gt;
+&lt;p&gt;You can watch the status of the outage here: &lt;a href=&#34;https://status.testing-farm.io/issues/2024-08-05-expired-images-f39-f40/&#34;&gt;https://status.testing-farm.io/issues/2024-08-05-expired-images-f39-f40/&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-08-02-tf-outage/</link>
+        <pubDate>Fri, 02 Aug 2024 06:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-08-02-tf-outage/</guid>
+        <category>2024-08-02T11:00:00&#43;02:00</category>
+        <description>Testing Farm public ranch is having an outage resulting in tests failing for fedora-rawhide-x86_64 target. You can watch the status of the outage here: https://status.testing-farm.io/issues/2024-08-02-rawhide-outage/.</description>
+        <content type="html">&lt;p&gt;Testing Farm public ranch is having an outage resulting in tests failing for &lt;code&gt;fedora-rawhide-x86_64&lt;/code&gt; target.
+You can watch the status of the outage here: &lt;a href=&#34;https://status.testing-farm.io/issues/2024-08-02-rawhide-outage/&#34;&gt;https://status.testing-farm.io/issues/2024-08-02-rawhide-outage/&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2024-07-22-tf-outage/</link>
+        <pubDate>Mon, 22 Jul 2024 00:16:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-07-22-tf-outage/</guid>
+        <category>2024-07-22T12:00:00&#43;02:00</category>
+        <description>Testing Farm infrastructure is having an outage resulting in tests stuck in a queued state. You can watch the status of the outage here: https://status.testing-farm.io/issues/2024-07-22-public-ranch-outage/
+The tests should be executed once the outage is resolved.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure is having an outage resulting in tests stuck in a queued state.
+You can watch the status of the outage here: &lt;a href=&#34;https://status.testing-farm.io/issues/2024-07-22-public-ranch-outage/&#34;&gt;https://status.testing-farm.io/issues/2024-07-22-public-ranch-outage/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The tests should be executed once the outage is resolved.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2023-12-10-tf-outage/</link>
+        <pubDate>Sun, 10 Dec 2023 20:40:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-12-10-tf-outage/</guid>
+        <category>2023-12-11T12:00:00&#43;01:00</category>
+        <description>Testing Farm provisioning is currently failing (due to failing DNS resolution). All runs created on the Testing Farm end with:
+⚠ Guest couldn&amp;#39;t be provisioned: Artemis resource ended in &amp;#39;error&amp;#39; state In case it affects you, please retrigger the tests via /packit test comment command in the pull requests, once the outage is resolved.</description>
+        <content type="html">&lt;p&gt;Testing Farm provisioning is currently failing (due to failing DNS resolution). All runs created on the Testing Farm end with:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;⚠ Guest couldn&amp;#39;t be provisioned: Artemis resource ended in &amp;#39;error&amp;#39; state
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In case it affects you, please retrigger the tests via &lt;code&gt;/packit test&lt;/code&gt; comment command in the pull requests, &lt;em&gt;once the outage is resolved&lt;/em&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] GitLab.com outage</title>
+        <link>https://status.packit.dev/issues/2023-10-10-gitlab-outage/</link>
+        <pubDate>Tue, 10 Oct 2023 04:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-10-10-gitlab-outage/</guid>
+        <category>2023-10-11T14:00:00&#43;02:00</category>
+        <description>GitLab.com workflows are disrupted due to the issue with detecting the upstream/downstream repository in the current working directory.
+Self-hosted GitLab forges are not affected.</description>
+        <content type="html">&lt;p&gt;GitLab.com workflows are disrupted due to the &lt;a href=&#34;https://github.com/packit/packit/issues/2118&#34;&gt;issue&lt;/a&gt; with detecting the upstream/downstream repository in the current working directory.&lt;/p&gt;
+&lt;p&gt;Self-hosted GitLab forges are not affected.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2023-08-24-tf-outage/</link>
+        <pubDate>Thu, 24 Aug 2023 15:40:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-08-24-tf-outage/</guid>
+        <category>2023-08-24T16:00:00&#43;02:00</category>
+        <description>Testing Farm infrastructure had a small outage that caused few failing test runs. In case it affected you, please retrigger the tests via /packit test comment command in the pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure had a small outage that caused few failing test runs.
+In case it affected you, please retrigger the tests via &lt;code&gt;/packit test&lt;/code&gt; comment command in the pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm testing blocked</title>
+        <link>https://status.packit.dev/issues/2023-07-19-testing-farm-failing-on-rawhide/</link>
+        <pubDate>Wed, 19 Jul 2023 08:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-07-19-testing-farm-failing-on-rawhide/</guid>
+        <category>2023-07-19T11:00:00&#43;00:00</category>
+        <description>Testing via Testing Farm is blocked: https://status.testing-farm.io/issues/2023-07-19-public-ranch-outage/.
+Testing Farm team is working on the fix (ETA 2 hours).</description>
+        <content type="html">&lt;p&gt;Testing via Testing Farm is blocked: &lt;a href=&#34;https://status.testing-farm.io/issues/2023-07-19-public-ranch-outage/&#34;&gt;https://status.testing-farm.io/issues/2023-07-19-public-ranch-outage/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Testing Farm team is working on the fix (ETA 2 hours).&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Guest couldn&#39;t be provisioned: Artemis resource ended in &#39;error&#39; state</title>
+        <link>https://status.packit.dev/issues/2023-07-03-testing-provisioning-failed/</link>
+        <pubDate>Mon, 03 Jul 2023 08:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-07-03-testing-provisioning-failed/</guid>
+        <category>2023-07-03T10:00:00&#43;00:00</category>
+        <description>Some jobs submitted by Packit to the Testing Farm are pending with this error: &amp;quot;Guest couldn&#39;t be provisioned: Artemis resource ended in &#39;error&#39; state&amp;quot;.
+Testing Farm has already resolved the issue; please re-submit the job with a comment like /packit test (more info on retriggering here) or through the GitHub checks button.</description>
+        <content type="html">&lt;p&gt;Some jobs submitted by Packit to the Testing Farm are pending with this error:
+&lt;code&gt;&amp;quot;Guest couldn&#39;t be provisioned: Artemis resource ended in &#39;error&#39; state&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Testing Farm has already resolved the issue; please re-submit the job with a
+comment like &lt;code&gt;/packit test&lt;/code&gt; (more info on retriggering
+&lt;a href=&#34;https://packit.dev/docs/configuration/upstream/tests/#restart-testing&#34;&gt;here&lt;/a&gt;)
+or through the GitHub checks button.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora Rawhide Testing Blocked on dnf5</title>
+        <link>https://status.packit.dev/issues/2023-06-22-fedora-rawhide-testing-blocked-on-dnf5/</link>
+        <pubDate>Thu, 22 Jun 2023 09:30:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-06-22-fedora-rawhide-testing-blocked-on-dnf5/</guid>
+        <category>2023-07-18T20:30:00&#43;02:00</category>
+        <description>dnf has been upgraded to dnf5 in Rawhide, resulting in various issues when running tests in Testing Farm.
+The Testing Farm team together with dnf5 team is working on fixing the issues and trying to resolve the situation ASAP.
+If you want to help, here are upstream issues related to this problem:
+ https://github.com/rpm-software-management/dnf5/issues/549 https://github.com/rpm-software-management/dnf5/issues/168  </description>
+        <content type="html">&lt;p&gt;dnf has been upgraded to dnf5 in Rawhide, resulting in various issues
+when running tests in Testing Farm.&lt;/p&gt;
+&lt;p&gt;The Testing Farm team together with dnf5 team is working on fixing the issues
+and trying to resolve the situation ASAP.&lt;/p&gt;
+&lt;p&gt;If you want to help, here are upstream issues related to this problem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rpm-software-management/dnf5/issues/549&#34;&gt;https://github.com/rpm-software-management/dnf5/issues/549&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rpm-software-management/dnf5/issues/168&#34;&gt;https://github.com/rpm-software-management/dnf5/issues/168&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm errors</title>
+        <link>https://status.packit.dev/issues/2023-05-11-tf-merge-issue/</link>
+        <pubDate>Wed, 10 May 2023 14:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-05-11-tf-merge-issue/</guid>
+        <category>2023-05-11T15:00:00&#43;02:00</category>
+        <description>After the deployment of the new version of Testing Farm, you may have encountered Testing Farm runs that fail with the status Failed to checkout ref {sha}. Together with the Testing Farm team, we are working on a fix.</description>
+        <content type="html">&lt;p&gt;After the deployment of the new version of Testing Farm, you may have encountered Testing Farm runs that
+fail with the status &lt;code&gt;Failed to checkout ref {sha}&lt;/code&gt;. Together with the Testing Farm team, we are working on a fix.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Running grouping migrations</title>
+        <link>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</link>
+        <pubDate>Tue, 14 Feb 2023 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</guid>
+        <category>2023-02-14T04:00:00&#43;01:00</category>
+        <description>We are updating our database schema to facilitate further development. As a part of this process, multiple database migrations will have to be run. The first step is grouping together related builds and test runs. The migrations will happen during the next deployment to production, on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to take roughly 40 minutes, after which the service should come back up.</description>
+        <content type="html">&lt;p&gt;We are updating our database schema to facilitate further development.
+As a part of this process, multiple database migrations will have to
+be run. The first step is grouping together related builds and test
+runs. The migrations will happen during the next deployment to production,
+on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to
+take roughly 40 minutes, after which the service should come back up.&lt;/p&gt;
+&lt;p&gt;Since significant refactoring was paired with these changes, there may
+be some bugs/regressions that we did not spot on staging. Please,
+contact us via the usual means if you spot anything suspicious.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Testing Farm outage</title>
+        <link>https://status.packit.dev/issues/2023-01-24-tf-outage/</link>
+        <pubDate>Tue, 24 Jan 2023 15:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-01-24-tf-outage/</guid>
+        <category>2023-01-25T10:00:00&#43;01:00</category>
+        <description>Testing Farm infrastructure had an outage which caused the status of the test runs to be stuck in the queued state. This is now resolved and tests can be retriggered by /packit test comment command in the pull requests.</description>
+        <content type="html">&lt;p&gt;Testing Farm infrastructure had an &lt;a href=&#34;https://status.testing-farm.io/issues/2023-01-24-public-ranch-outage/&#34;&gt;outage&lt;/a&gt;
+which caused the status of the test runs to be stuck in the &lt;code&gt;queued&lt;/code&gt; state.
+This is now resolved and tests can be retriggered by &lt;code&gt;/packit test&lt;/code&gt; comment command in the pull requests.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Internal Testing Farm infrastructure is having an outage</title>
+        <link>https://status.packit.dev/issues/2022-10-10-outage/</link>
+        <pubDate>Mon, 10 Oct 2022 15:14:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-10-10-outage/</guid>
+        <category>2022-10-11T21:34:00&#43;02:00</category>
+        <description>Due to a wide outage in Red Hat internal infrastructure the Red Hat Ranch (=internal ranch) is disabled in the Testing Farm (=our test runner). Currently there is no ETA for resolving the problem. Follow the progress on the Testing Farm status page: https://status.testing-farm.io/issues/2022-10-10-redhat-ranch/</description>
+        <content type="html">&lt;p&gt;Due to a wide outage in Red Hat internal infrastructure the Red Hat Ranch (=internal ranch) is disabled in the Testing Farm (=our test runner).
+Currently there is no ETA for resolving the problem.
+Follow the progress on the Testing Farm status page: &lt;a href=&#34;https://status.testing-farm.io/issues/2022-10-10-redhat-ranch/&#34;&gt;https://status.testing-farm.io/issues/2022-10-10-redhat-ranch/&lt;/a&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] September 22th outage</title>
+        <link>https://status.packit.dev/issues/2022-09-22-outage/</link>
+        <pubDate>Thu, 22 Sep 2022 08:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-09-22-outage/</guid>
+        <category>2022-09-23T08:00:00&#43;02:00</category>
+        <description>Testing Farm is failing to run tests submitted by Packit which use Copr builds. Tests with the skip_build flag are not be affected by this issue. We are working together with the Testing Farm team to fix this as soon as possible.</description>
+        <content type="html">&lt;p&gt;Testing Farm is failing to run tests submitted by Packit which use &lt;code&gt;Copr&lt;/code&gt; builds.
+Tests with the &lt;code&gt;skip_build&lt;/code&gt; flag are not be affected by this issue.
+We are working together with the Testing Farm team to fix this as soon as possible.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>
