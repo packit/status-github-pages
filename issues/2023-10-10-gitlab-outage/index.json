@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "GitLab.com outage",
+  "createdAt": "2023-10-10 04:00:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-10-10-gitlab-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-10-11T14:00:00+02:00",
+  "affected": ["Copr", "Testing Farm"],
+  "filename": "2023-10-10-gitlab-outage.md"
+}

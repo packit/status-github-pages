@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Upgrade of Copr servers",
+  "createdAt": "2023-05-25 10:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-05-25-copr-upgrade/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-05-25T13:00:00+00:00",
+  "affected": ["Copr"],
+  "filename": "2023-05-25-copr-upgrade.md"
+}

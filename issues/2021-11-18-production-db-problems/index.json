@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Problems with production database",
+  "createdAt": "2021-11-18 02:33:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-11-18-production-db-problems/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-11-19 00:10:00",
+  "affected": ["Dashboard"],
+  "filename": "2021-11-18-production-db-problems.md"
+}

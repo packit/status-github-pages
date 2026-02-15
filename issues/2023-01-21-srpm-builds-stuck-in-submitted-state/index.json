@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "SRPM builds stuck in Submitted state",
+  "createdAt": "2023-01-20 21:19:06 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-01-21-srpm-builds-stuck-in-submitted-state/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-01-21T9:51:30+01:00",
+  "affected": ["Workers"],
+  "filename": "2023-01-21-srpm-builds-stuck-in-submitted-state.md"
+}

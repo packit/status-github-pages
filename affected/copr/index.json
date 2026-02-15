@@ -1,0 +1,335 @@
+{
+  "is": "system",
+  "title": "Copr",
+  "permalink": "https://status.packit.dev/affected/copr/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Copr outage - stuck hypervisor",
+        "createdAt": "2026-01-13 02:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2026-01-13-copr-outage/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2026-01-13T09:30:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2026-01-13-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr outage",
+        "createdAt": "2025-11-26 08:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-11-26-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-26T18:00:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2025-11-26-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora Infra - Datacenter Move outage",
+        "createdAt": "2025-06-30 01:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-04T21:00:00+00:00",
+        "affected": ["Anitya (Release Monitoring)", "Koji", "Bodhi", "OpenScanHub", "Copr"],
+        "filename": "2025-06-30-fedora-infra-migration.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr SRPM builds failing",
+        "createdAt": "2025-03-05 08:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-03-05-copr-issue/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-03-05T16:30:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2025-03-05-copr-issue.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2025-02-03 15:15:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-02-03-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-03T15:25:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2025-02-03-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr outage",
+        "createdAt": "2024-12-23 06:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-12-23-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-12-23T10:00:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2024-12-23-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr outage - system update",
+        "createdAt": "2024-12-04 10:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-12-04-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-12-04T16:30:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2024-12-04-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2024-10-09 20:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-10-09-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-10-10T20:10:00+02:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2024-10-09-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure outage",
+        "createdAt": "2024-09-15 08:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-09-16-fedora-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-09-16T17:30:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2024-09-16-fedora-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Many Copr builds pending",
+        "createdAt": "2024-04-23 14:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-04-23-copr-pending-queue/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-04-23T21:00:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2024-04-23-copr-pending-queue.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr builds stuck in pending or running state",
+        "createdAt": "2023-12-06 12:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-12-06-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-12-06T16:00:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2023-12-06-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr Upgrade",
+        "createdAt": "2023-11-28 13:30:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-11-28-copr-upgrade/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-11-28T16:45:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2023-11-28-copr-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitLab.com outage",
+        "createdAt": "2023-10-10 04:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-10-10-gitlab-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-10-11T14:00:00+02:00",
+        "affected": ["Copr", "Testing Farm"],
+        "filename": "2023-10-10-gitlab-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "COPR build failures",
+        "createdAt": "2023-09-09 12:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-09-09-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-09-11T15:00:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2023-09-09-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr frontend instability",
+        "createdAt": "2023-09-05 15:15:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-09-05-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-04-05T15:00:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2023-09-05-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr Upgrade",
+        "createdAt": "2023-08-16 14:30:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-08-16-copr-upgrade/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-08-16T16:30:00+02:00",
+        "affected": ["Copr"],
+        "filename": "2023-08-16-copr-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Upgrade of Copr servers",
+        "createdAt": "2023-05-25 10:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-05-25-copr-upgrade/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-25T13:00:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2023-05-25-copr-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Upgrade of Copr servers",
+        "createdAt": "2023-04-05 12:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-04-05-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-04-05T15:00:00+00:00",
+        "affected": ["Copr"],
+        "filename": "2023-04-05-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Running grouping migrations",
+        "createdAt": "2023-02-14 02:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-14T04:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji"],
+        "filename": "2023-02-14-running-grouping-migrations.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Upgrade of Copr Servers",
+        "createdAt": "2022-11-28 16:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-11-28-copr-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-11-28T21:00:00+01:00",
+        "affected": ["Copr"],
+        "filename": "2022-11-28-copr-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr storage move",
+        "createdAt": "2022-10-28 21:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-10-28-30-copr-storage-move/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-10-30T08:00:00+02:00",
+        "affected": ["Copr"],
+        "filename": "2022-10-28-30-copr-storage-move.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Issues with the task execution",
+        "createdAt": "2022-10-11 13:57:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-10-11-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-10-11T15:12:00+02:00",
+        "affected": ["Workers", "Copr"],
+        "filename": "2022-10-11-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Upgrade of Copr Servers",
+        "createdAt": "2022-06-22 14:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-06-22T16:10:00+02:00",
+        "affected": ["Copr"],
+        "filename": "2022-06-22-upgrade-of-copr-servers.md"
+      }
+    
+  ]
+}
+
+
+
+
+

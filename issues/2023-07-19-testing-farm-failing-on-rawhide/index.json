@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Testing Farm testing blocked",
+  "createdAt": "2023-07-19 08:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-07-19-testing-farm-failing-on-rawhide/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-07-19T11:00:00+00:00",
+  "affected": ["Testing Farm"],
+  "filename": "2023-07-19-testing-farm-failing-on-rawhide.md"
+}

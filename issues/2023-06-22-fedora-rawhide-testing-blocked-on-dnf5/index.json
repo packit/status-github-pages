@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Fedora Rawhide Testing Blocked on dnf5",
+  "createdAt": "2023-06-22 09:30:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-06-22-fedora-rawhide-testing-blocked-on-dnf5/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-07-18T20:30:00+02:00",
+  "affected": ["Testing Farm"],
+  "filename": "2023-06-22-fedora-rawhide-testing-blocked-on-dnf5.md"
+}

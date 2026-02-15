@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "SLO1 Error Budget issues",
+  "createdAt": "2023-03-09 10:00:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-03-09-slo1-error-budget/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-06-08T10:00:00+01:00",
+  "affected": ["API", "Workers", "Dashboard"],
+  "filename": "2023-03-09-slo1-error-budget.md"
+}

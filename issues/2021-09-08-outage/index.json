@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Slow SRPM builds",
+  "createdAt": "2021-09-07 20:30:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-09-08-outage/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-09-16T13:54:56+00:00",
+  "affected": [],
+  "filename": "2021-09-08-outage.md"
+}

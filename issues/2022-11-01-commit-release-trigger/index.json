@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Copr builds and tests on commits and releases ignored",
+  "createdAt": "2022-11-01 03:00:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-11-01-commit-release-trigger/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-11-02T10:30:00+01:00",
+  "affected": ["Workers"],
+  "filename": "2022-11-01-commit-release-trigger.md"
+}

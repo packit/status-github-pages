@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "3/4 of SLO1 Error Budget consumed in 6 weeks",
+  "createdAt": "2022-09-01 01:00:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-10-27-slo1-error-budget-drop-postmortem/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-10-12T01:00:00+02:00",
+  "affected": [],
+  "filename": "2022-10-27-slo1-error-budget-drop-postmortem.md"
+}

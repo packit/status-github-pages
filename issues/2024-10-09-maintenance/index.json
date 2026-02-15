@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Maintenance outage",
+  "createdAt": "2024-10-09 20:00:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2024-10-09-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-10-10T20:10:00+02:00",
+  "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+  "filename": "2024-10-09-maintenance.md"
+}

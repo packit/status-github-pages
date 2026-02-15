@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Longer response times",
+  "createdAt": "2021-12-07 09:06:14 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-12-07-response-delays/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-12-07T11:49:14+01:00",
+  "affected": ["workers"],
+  "filename": "2021-12-07-response-delays.md"
+}

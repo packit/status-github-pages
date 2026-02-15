@@ -1,0 +1,69 @@
+{
+  "is": "system",
+  "title": "all",
+  "permalink": "https://status.packit.dev/affected/all/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Longer response times",
+        "createdAt": "2025-01-06 15:30:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-01-10-response-delays/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-24T16:00:00+01:00",
+        "affected": ["all"],
+        "filename": "2025-01-10-response-delays.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage ",
+        "createdAt": "2024-05-07 13:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-05-07-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-07T16:00:00+02:00",
+        "affected": ["all"],
+        "filename": "2024-05-07-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage ",
+        "createdAt": "2024-04-25 14:30:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-04-25-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-04-25T19:30:00+02:00",
+        "affected": ["all"],
+        "filename": "2024-04-25-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packit outage now resolved",
+        "createdAt": "2023-08-21 14:45:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-08-21-packit-outage/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-08-21T15:15:00+02:00",
+        "affected": ["all"],
+        "filename": "2023-08-21-packit-outage.md"
+      }
+    
+  ]
+}
+
+
+
+
+

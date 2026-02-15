@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Pull From Upstream Outage",
+  "createdAt": "2024-02-21 00:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2024-02-22-pull-from-upstream-outage/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-02-22T14:40:00+00:00",
+  "affected": ["Pull from upstream"],
+  "filename": "2024-02-22-pull-from-upstream-outage.md"
+}

@@ -1,0 +1,97 @@
+{
+  "is": "system",
+  "title": "GitHub",
+  "permalink": "https://status.packit.dev/affected/github/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "2024-04-05 10:15:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-04-05-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-04-05T11:15:00+01:00",
+        "affected": ["GitHub"],
+        "filename": "2024-04-05-github-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "2024-01-09 14:45:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-01-09-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-09T15:40:00+01:00",
+        "affected": ["GitHub"],
+        "filename": "2024-01-09-GitHub-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "2023-11-07 14:45:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-11-07-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-11-07T15:30:00+01:00",
+        "affected": ["GitHub"],
+        "filename": "2023-11-07-GitHub-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "2023-05-11 15:30:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-05-11-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-11T21:00:00+02:00",
+        "affected": ["GitHub"],
+        "filename": "2023-05-11-GitHub-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "2023-05-09 13:50:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-05-09-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-09T23:15:00+02:00",
+        "affected": ["GitHub"],
+        "filename": "2023-05-09-GitHub-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "GitHub outage",
+        "createdAt": "0001-01-01 00:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-08-13-github-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-08-13T15:23:00+02:00",
+        "affected": ["GitHub"],
+        "filename": "2024-08-13-github-outage.md"
+      }
+    
+  ]
+}
+
+
+
+
+

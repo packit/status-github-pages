@@ -1,0 +1,41 @@
+{
+  "is": "system",
+  "title": "Downstream Koji builds",
+  "permalink": "https://status.packit.dev/affected/downstream-koji-builds/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Fedora integration outage",
+        "createdAt": "2024-05-27 14:20:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-05-27-fedora-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-27T18:35:00+02:00",
+        "affected": ["Pull from upstream", "Downstream Koji builds", "Bodhi updates"],
+        "filename": "2024-05-27-fedora-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage of automatic triggering of downstream Koji builds",
+        "createdAt": "2024-01-11 09:30:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-01-11-downstream-koji-builds-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-01-15T15:20:00+01:00",
+        "affected": ["Downstream Koji builds"],
+        "filename": "2024-01-11-downstream-koji-builds-outage.md"
+      }
+    
+  ]
+}
+
+
+
+
+

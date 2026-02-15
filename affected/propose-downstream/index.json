@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Propose downstream",
+  "permalink": "https://status.packit.dev/affected/propose-downstream/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-02-26 13:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-26T13:28:00+00:00",
+        "affected": ["Pull from upstream", "Propose downstream", "Koji", "Bodhi"],
+        "filename": "2024-02-26-fedora-auth-problem.md"
+      }
+    
+  ]
+}
+
+
+
+
+

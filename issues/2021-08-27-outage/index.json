@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "August 27th outage",
+  "createdAt": "2021-08-27 15:00:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-08-27-outage/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-08-28 08:00:00+00:00",
+  "affected": [],
+  "filename": "2021-08-27-outage.md"
+}

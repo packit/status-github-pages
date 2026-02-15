@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Affected on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-02-05T18:00:00+01:00</lastBuildDate>
+    <updated>2026-02-05T18:00:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>all services</title>
+        <link>https://status.packit.dev/affected/all-services/</link>
+        <pubDate>Thu, 05 Feb 2026 18:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/all-services/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Copr</title>
+        <link>https://status.packit.dev/affected/copr/</link>
+        <pubDate>Tue, 13 Jan 2026 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/copr/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Testing Farm</title>
+        <link>https://status.packit.dev/affected/testing-farm/</link>
+        <pubDate>Tue, 16 Dec 2025 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/testing-farm/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>All jobs</title>
+        <link>https://status.packit.dev/affected/all-jobs/</link>
+        <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/all-jobs/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Downstream Jobs</title>
+        <link>https://status.packit.dev/affected/downstream-jobs/</link>
+        <pubDate>Thu, 20 Nov 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/downstream-jobs/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Anitya (Release Monitoring)</title>
+        <link>https://status.packit.dev/affected/anitya-release-monitoring/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/anitya-release-monitoring/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Bodhi</title>
+        <link>https://status.packit.dev/affected/bodhi/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/bodhi/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Koji</title>
+        <link>https://status.packit.dev/affected/koji/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/koji/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>OpenScanHub</title>
+        <link>https://status.packit.dev/affected/openscanhub/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/openscanhub/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>API</title>
+        <link>https://status.packit.dev/affected/api/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/api/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Dashboard</title>
+        <link>https://status.packit.dev/affected/dashboard/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/dashboard/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Workers</title>
+        <link>https://status.packit.dev/affected/workers/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/workers/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>all</title>
+        <link>https://status.packit.dev/affected/all/</link>
+        <pubDate>Mon, 06 Jan 2025 15:30:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/all/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Pull from upstream</title>
+        <link>https://status.packit.dev/affected/pull-from-upstream/</link>
+        <pubDate>Wed, 26 Jun 2024 08:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/pull-from-upstream/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Bodhi updates</title>
+        <link>https://status.packit.dev/affected/bodhi-updates/</link>
+        <pubDate>Mon, 27 May 2024 14:20:00 +0200</pubDate>
+        <guid>https://status.packit.dev/affected/bodhi-updates/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Downstream Koji builds</title>
+        <link>https://status.packit.dev/affected/downstream-koji-builds/</link>
+        <pubDate>Mon, 27 May 2024 14:20:00 +0200</pubDate>
+        <guid>https://status.packit.dev/affected/downstream-koji-builds/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>GitHub</title>
+        <link>https://status.packit.dev/affected/github/</link>
+        <pubDate>Fri, 05 Apr 2024 10:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/affected/github/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Propose downstream</title>
+        <link>https://status.packit.dev/affected/propose-downstream/</link>
+        <pubDate>Mon, 26 Feb 2024 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/propose-downstream/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Koji builds</title>
+        <link>https://status.packit.dev/affected/koji-builds/</link>
+        <pubDate>Wed, 21 Feb 2024 21:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/affected/koji-builds/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+  </channel>
+</rss>

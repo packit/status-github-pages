@@ -1,0 +1,174 @@
+{
+  "is": "index",
+  "cStateVersion": "5.5.1",
+  "apiVersion": "2.0",
+  "title": "Packit Service Status",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://status.packit.dev", 
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
+  "summaryStatus": "ok", 
+  "categories": [
+      {
+        "name": "Core",
+        "description": "Systems we have complete control over",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    ,
+      {
+        "name": "External Upstream Systems",
+        "description": "Systems that are utilized mainly on upstream, but we have no direct control over
+",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    ,
+      {
+        "name": "External Downstream Systems",
+        "description": "Systems that are utilized mainly on downstream, but we have no direct control over
+",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    
+  ],
+  "systems": [
+    
+      {
+        "name": "API",
+        "description": "prod.packit.dev/api - If API is down, we're not able to receive your requests.",
+        "category": "Core", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Workers",
+        "description": "If workers are down, received requests are waiting in a queue to be proceeded.",
+        "category": "Core", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Dashboard",
+        "description": "dashboard.packit.dev",
+        "category": "Core", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Copr",
+        "description": "copr.fedorainfracloud.org - If it's down, we can't build your packages.",
+        "category": "External Upstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Testing Farm",
+        "description": "api.dev.testing-farm.io - If it's down, we can't run tests.",
+        "category": "External Upstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Image Builder",
+        "description": "console.redhat.com/insights/image-builder",
+        "category": "External Upstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "OpenScanHub",
+        "description": "openscanhub.fedoraproject.org",
+        "category": "External Upstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Anitya (Release Monitoring)",
+        "description": "release-monitoring.org",
+        "category": "External Downstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Koji",
+        "description": "koji.fedoraproject.org",
+        "category": "External Downstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Bodhi",
+        "description": "bodhi.fedoraproject.org",
+        "category": "External Downstream Systems", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+  "tabs": [
+      {
+        "name": "UptimeRobot", 
+        "link": "<no value>"
+      }
+    ,
+      {
+        "name": "Testing Farm Status", 
+        "link": "<no value>"
+      }
+    ,
+      {
+        "name": "Packit docs", 
+        "link": "<no value>"
+      }
+    ,
+      {
+        "name": "Packit dashboard", 
+        "link": "<no value>"
+      }
+    
+  ],
+  
+  "buildDate": "2026-02-15",
+  "buildTime": "15:10",
+  "buildTimezone": "UTC",
+  "colorBrand": "#0a0c0f",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+  "logo": "https://status.packit.dev/logo.png",
+  "googleAnalytics": "UA-00000000-1"
+}

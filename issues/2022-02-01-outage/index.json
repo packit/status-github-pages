@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "February 1st outage",
+  "createdAt": "2022-02-01 02:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-02-01-outage/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-02-01T04:15:00+00:00",
+  "affected": [],
+  "filename": "2022-02-01-outage.md"
+}

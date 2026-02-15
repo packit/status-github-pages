@@ -1,0 +1,97 @@
+{
+  "is": "system",
+  "title": "Koji",
+  "permalink": "https://status.packit.dev/affected/koji/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Fedora Infra - Datacenter Move outage",
+        "createdAt": "2025-06-30 01:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-04T21:00:00+00:00",
+        "affected": ["Anitya (Release Monitoring)", "Koji", "Bodhi", "OpenScanHub", "Copr"],
+        "filename": "2025-06-30-fedora-infra-migration.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2025-02-03 15:15:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-02-03-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-03T15:25:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2025-02-03-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2024-10-09 20:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-10-09-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-10-10T20:10:00+02:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2024-10-09-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-02-26 13:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-26T13:28:00+00:00",
+        "affected": ["Pull from upstream", "Propose downstream", "Koji", "Bodhi"],
+        "filename": "2024-02-26-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-01-22 22:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-01-23T21:00:00+01:00",
+        "affected": ["Workers", "Koji", "Bodhi"],
+        "filename": "2024-01-23-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Running grouping migrations",
+        "createdAt": "2023-02-14 02:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-14T04:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji"],
+        "filename": "2023-02-14-running-grouping-migrations.md"
+      }
+    
+  ]
+}
+
+
+
+
+

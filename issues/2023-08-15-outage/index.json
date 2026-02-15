@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Outage",
+  "createdAt": "2023-08-15 04:00:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-08-15-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-08-15T11:03:00+02:00",
+  "affected": ["API", "Workers"],
+  "filename": "2023-08-15-outage.md"
+}

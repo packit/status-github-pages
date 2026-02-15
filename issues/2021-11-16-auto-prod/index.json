@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Moving production Packit Service to a new cluster",
+  "createdAt": "2021-11-18 01:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-11-16-auto-prod/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-11-18 02:33:00",
+  "affected": ["API", "Workers", "Dashboard"],
+  "filename": "2021-11-16-auto-prod.md"
+}

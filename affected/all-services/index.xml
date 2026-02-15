@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>all services on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/all-services/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-02-05T18:00:00+01:00</lastBuildDate>
+    <updated>2026-02-05T18:00:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/all-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Packit outage</title>
+        <link>https://status.packit.dev/issues/2026-02-06-packit-outage/</link>
+        <pubDate>Thu, 05 Feb 2026 18:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2026-02-06-packit-outage/</guid>
+        <category>2026-02-06T12:00:00&#43;01:00</category>
+        <description>There was a Packit outage that prevented jobs from proceeding. As a result, we have a long-standing queue, and new jobs can take hours before being processed.</description>
+        <content type="html">&lt;p&gt;There was a Packit outage that prevented jobs from proceeding.
+As a result, we have a long-standing queue, and new jobs can take hours before being processed.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

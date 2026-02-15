@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "GitHub outage",
+  "createdAt": "2023-05-09 13:50:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-05-09-github-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-05-09T23:15:00+02:00",
+  "affected": ["GitHub"],
+  "filename": "2023-05-09-GitHub-outage.md"
+}

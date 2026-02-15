@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Issues with the task execution",
+  "createdAt": "2022-10-11 13:57:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-10-11-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-10-11T15:12:00+02:00",
+  "affected": ["Workers", "Copr"],
+  "filename": "2022-10-11-outage.md"
+}

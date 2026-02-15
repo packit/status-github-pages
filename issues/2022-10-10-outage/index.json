@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Internal Testing Farm infrastructure is having an outage",
+  "createdAt": "2022-10-10 15:14:00 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-10-10-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-10-11T21:34:00+02:00",
+  "affected": ["Testing Farm"],
+  "filename": "2022-10-10-outage.md"
+}

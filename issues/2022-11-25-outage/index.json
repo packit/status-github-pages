@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Outage",
+  "createdAt": "2022-11-24 23:24:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-11-25-outage/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-11-25T08:35:00+01:00",
+  "affected": ["API", "Workers"],
+  "filename": "2022-11-25-outage.md"
+}

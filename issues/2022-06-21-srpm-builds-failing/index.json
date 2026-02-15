@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "SRPM builds done in Copr are failing",
+  "createdAt": "2022-06-21 10:18:22 +0200 +0200",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2022-06-21T11:10:22+02:00",
+  "affected": ["Workers"],
+  "filename": "2022-06-21-srpm-builds-failing.md"
+}

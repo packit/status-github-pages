@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Fedora infrastructure authentication problem",
+  "createdAt": "2024-01-22 22:00:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-01-23T21:00:00+01:00",
+  "affected": ["Workers", "Koji", "Bodhi"],
+  "filename": "2024-01-23-fedora-auth-problem.md"
+}

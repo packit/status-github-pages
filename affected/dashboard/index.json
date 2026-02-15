@@ -1,0 +1,181 @@
+{
+  "is": "system",
+  "title": "Dashboard",
+  "permalink": "https://status.packit.dev/affected/dashboard/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2025-02-03 15:15:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-02-03-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-03T15:25:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2025-02-03-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2024-10-09 20:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-10-09-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-10-10T20:10:00+02:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2024-10-09-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Cluster upgrade",
+        "createdAt": "2023-10-02 08:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-10-02-cluster-upgrade/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-10-02T10:00:00+00:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-10-02-cluster-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Cluster Update",
+        "createdAt": "2023-05-03 10:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-05-03-cluster-update/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-03T11:15:00+02:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-05-03-cluster-update.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Scheduled DB Cleanup",
+        "createdAt": "2023-04-26 04:40:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-04-26-scheduled-db-cleanup/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-04-26T05:17:00+00:00",
+        "affected": ["API", "Dashboard"],
+        "filename": "2023-04-26-scheduled-db-cleanup.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SLO1 Error Budget issues",
+        "createdAt": "2023-03-09 10:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-03-09-slo1-error-budget/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-08T10:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-03-09-slo1-error-budget.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Running grouping migrations",
+        "createdAt": "2023-02-14 02:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-14T04:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji"],
+        "filename": "2023-02-14-running-grouping-migrations.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SLO2 Error Budget Depleted in a Day",
+        "createdAt": "2023-01-31 10:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-02-17-slo2-error-budget-depleted-in-a-day/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-01T10:00:00+01:00",
+        "affected": ["Dashboard"],
+        "filename": "2023-02-17-slo2-error-budget-depleted-in-a-day.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Problems with production database",
+        "createdAt": "2021-11-18 02:33:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-11-18-production-db-problems/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-19 00:10:00",
+        "affected": ["Dashboard"],
+        "filename": "2021-11-18-production-db-problems.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Moving production Packit Service to a new cluster",
+        "createdAt": "2021-11-18 01:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-11-16-auto-prod/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-18 02:33:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2021-11-16-auto-prod.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "PostgreSQL db upgrade",
+        "createdAt": "2021-06-04 07:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-06-04-postgresql-12/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-04 09:10:40+00:00",
+        "affected": ["Workers", "Dashboard"],
+        "filename": "2021-06-04-postgresql-12.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dashboard - unable to connect",
+        "createdAt": "2021-06-02 11:16:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-02 11:40:00",
+        "affected": ["API", "Dashboard"],
+        "filename": "2021-06-02-dashboard-unable-to-connect.md"
+      }
+    
+  ]
+}
+
+
+
+
+

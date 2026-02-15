@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Testing Farm outage",
+  "createdAt": "2023-12-10 20:40:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-12-10-tf-outage/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-12-11T12:00:00+01:00",
+  "affected": ["Testing Farm"],
+  "filename": "2023-12-10-tf-outage.md"
+}

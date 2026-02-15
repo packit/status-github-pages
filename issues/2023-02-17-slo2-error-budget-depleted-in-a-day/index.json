@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "SLO2 Error Budget Depleted in a Day",
+  "createdAt": "2023-01-31 10:00:00 +0100 +0100",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2023-02-17-slo2-error-budget-depleted-in-a-day/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-02-01T10:00:00+01:00",
+  "affected": ["Dashboard"],
+  "filename": "2023-02-17-slo2-error-budget-depleted-in-a-day.md"
+}

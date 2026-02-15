@@ -1,0 +1,83 @@
+{
+  "is": "system",
+  "title": "Pull from upstream",
+  "permalink": "https://status.packit.dev/affected/pull-from-upstream/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "release-monitoring.org outage",
+        "createdAt": "2024-06-26 08:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-07-02-release-monitoring.org-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-07-03T16:00:00+02:00",
+        "affected": ["Pull from upstream"],
+        "filename": "2024-07-02-release-monitoring.org-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora integration outage",
+        "createdAt": "2024-05-27 14:20:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-05-27-fedora-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-27T18:35:00+02:00",
+        "affected": ["Pull from upstream", "Downstream Koji builds", "Bodhi updates"],
+        "filename": "2024-05-27-fedora-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "New Hotness outage ",
+        "createdAt": "2024-05-09 03:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-05-16-new-hotness-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-16T14:30:00+02:00",
+        "affected": ["Pull from upstream"],
+        "filename": "2024-05-16-new-hotness-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-02-26 13:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-26T13:28:00+00:00",
+        "affected": ["Pull from upstream", "Propose downstream", "Koji", "Bodhi"],
+        "filename": "2024-02-26-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Pull From Upstream Outage",
+        "createdAt": "2024-02-21 00:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-02-22-pull-from-upstream-outage/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-22T14:40:00+00:00",
+        "affected": ["Pull from upstream"],
+        "filename": "2024-02-22-pull-from-upstream-outage.md"
+      }
+    
+  ]
+}
+
+
+
+
+

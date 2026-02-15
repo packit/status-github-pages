@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Koji Outage",
+  "createdAt": "2024-02-21 21:00:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2024-02-21-koji-outage/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-02-22T00:00:00+00:00",
+  "affected": ["Koji builds"],
+  "filename": "2024-02-21-koji-outage.md"
+}

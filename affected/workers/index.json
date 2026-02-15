@@ -1,0 +1,265 @@
+{
+  "is": "system",
+  "title": "Workers",
+  "permalink": "https://status.packit.dev/affected/workers/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2025-02-03 15:15:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2025-02-03-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-03T15:25:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2025-02-03-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance outage",
+        "createdAt": "2024-10-09 20:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-10-09-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-10-10T20:10:00+02:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji", "Bodhi"],
+        "filename": "2024-10-09-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Fedora infrastructure authentication problem",
+        "createdAt": "2024-01-22 22:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-01-23T21:00:00+01:00",
+        "affected": ["Workers", "Koji", "Bodhi"],
+        "filename": "2024-01-23-fedora-auth-problem.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Cluster upgrade",
+        "createdAt": "2023-10-02 08:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-10-02-cluster-upgrade/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-10-02T10:00:00+00:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-10-02-cluster-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage",
+        "createdAt": "2023-08-15 04:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-08-15-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-08-15T11:03:00+02:00",
+        "affected": ["API", "Workers"],
+        "filename": "2023-08-15-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Cluster Update",
+        "createdAt": "2023-05-03 10:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-05-03-cluster-update/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-05-03T11:15:00+02:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-05-03-cluster-update.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Issue with pushing to dist-git",
+        "createdAt": "2023-04-11 18:28:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-04-12-push-to-distgit-issue/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-04-12T16:30:00+02:00",
+        "affected": ["Workers"],
+        "filename": "2023-04-12-push-to-distgit-issue.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SLO1 Error Budget issues",
+        "createdAt": "2023-03-09 10:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-03-09-slo1-error-budget/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-08T10:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2023-03-09-slo1-error-budget.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Running grouping migrations",
+        "createdAt": "2023-02-14 02:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-14T04:00:00+01:00",
+        "affected": ["API", "Workers", "Dashboard", "Copr", "Testing Farm", "Koji"],
+        "filename": "2023-02-14-running-grouping-migrations.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SRPM builds stuck in Submitted state",
+        "createdAt": "2023-01-20 21:19:06 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2023-01-21-srpm-builds-stuck-in-submitted-state/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-01-21T9:51:30+01:00",
+        "affected": ["Workers"],
+        "filename": "2023-01-21-srpm-builds-stuck-in-submitted-state.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Outage",
+        "createdAt": "2022-11-24 23:24:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-11-25-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-11-25T08:35:00+01:00",
+        "affected": ["API", "Workers"],
+        "filename": "2022-11-25-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Copr builds and tests on commits and releases ignored",
+        "createdAt": "2022-11-01 03:00:00 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-11-01-commit-release-trigger/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-11-02T10:30:00+01:00",
+        "affected": ["Workers"],
+        "filename": "2022-11-01-commit-release-trigger.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Issues with the task execution",
+        "createdAt": "2022-10-11 13:57:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-10-11-outage/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-10-11T15:12:00+02:00",
+        "affected": ["Workers", "Copr"],
+        "filename": "2022-10-11-outage.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Failing SRPM builds done in Copr",
+        "createdAt": "2022-08-23 04:00:00 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-08-23-srpm-builds-failing/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-08-23T09:00:00+02:00",
+        "affected": ["Workers"],
+        "filename": "2022-08-23-srpm-builds-failing.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SRPM builds done in Copr are failing",
+        "createdAt": "2022-06-21 10:18:22 +0200 +0200",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-06-21T11:10:22+02:00",
+        "affected": ["Workers"],
+        "filename": "2022-06-21-srpm-builds-failing.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Longer response times",
+        "createdAt": "2021-12-07 09:06:14 +0100 +0100",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-12-07-response-delays/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-12-07T11:49:14+01:00",
+        "affected": ["workers"],
+        "filename": "2021-12-07-response-delays.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Moving production Packit Service to a new cluster",
+        "createdAt": "2021-11-18 01:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-11-16-auto-prod/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-11-18 02:33:00",
+        "affected": ["API", "Workers", "Dashboard"],
+        "filename": "2021-11-16-auto-prod.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "PostgreSQL db upgrade",
+        "createdAt": "2021-06-04 07:00:00 +0000 UTC",
+        "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2021-06-04-postgresql-12/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-04 09:10:40+00:00",
+        "affected": ["Workers", "Dashboard"],
+        "filename": "2021-06-04-postgresql-12.md"
+      }
+    
+  ]
+}
+
+
+
+
+

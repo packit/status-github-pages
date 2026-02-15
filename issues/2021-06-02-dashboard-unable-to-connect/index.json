@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Dashboard - unable to connect",
+  "createdAt": "2021-06-02 11:16:00 +0000 UTC",
+  "lastMod": "2026-02-15 16:09:54 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-06-02 11:40:00",
+  "affected": ["API", "Dashboard"],
+  "filename": "2021-06-02-dashboard-unable-to-connect.md"
+}
