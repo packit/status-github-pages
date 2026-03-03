@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Testing Farm tests incorrectly cancelled",
+  "createdAt": "2026-03-02 20:00:00 +0100 +0100",
+  "lastMod": "2026-03-03 10:30:44 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2026-03-02-testing-farm-tests-cancelled/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2026-03-03T10:10:00+01:00",
+  "affected": ["Testing Farm"],
+  "filename": "2026-03-02-testing-farm-tests-cancelled.md"
+}
