@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Copr on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/copr/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-01-13T02:00:00+01:00</lastBuildDate>
+    <updated>2026-01-13T02:00:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/copr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Copr outage - stuck hypervisor</title>
+        <link>https://status.packit.dev/issues/2026-01-13-copr-outage/</link>
+        <pubDate>Tue, 13 Jan 2026 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2026-01-13-copr-outage/</guid>
+        <category>2026-01-13T09:30:00&#43;01:00</category>
+        <description>There was a Copr outage and as a result Copr builds were stuck in a pending state.
+Now the outage is over and any pending jobs should be processed automatically. If they aren&amp;rsquo;t trigger them manually.
+However, there is a long queue of builds in Packit and it could take hours for it to decrease.</description>
+        <content type="html">&lt;p&gt;There was a &lt;a href=&#34;https://github.com/praiskup/resalloc/issues/173&#34;&gt;Copr outage&lt;/a&gt;
+and as a result Copr builds were stuck in a pending state.&lt;/p&gt;
+&lt;p&gt;Now the outage is over and any pending jobs should be processed automatically.
+If they aren&amp;rsquo;t &lt;a href=&#34;https://packit.dev/docs/guide#retriggering&#34;&gt;trigger them manually&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, there is a long queue of builds in Packit and it could take hours for it to decrease.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr outage</title>
+        <link>https://status.packit.dev/issues/2025-11-26-copr-outage/</link>
+        <pubDate>Wed, 26 Nov 2025 08:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-11-26-copr-outage/</guid>
+        <category>2025-11-26T18:00:00&#43;01:00</category>
+        <description>Copr services are temporarily unavailable due to service outage.
+In Packit, this results in Copr builds stuck in a pending state.</description>
+        <content type="html">&lt;p&gt;Copr services are temporarily unavailable due to service outage.&lt;/p&gt;
+&lt;p&gt;In Packit, this results in Copr builds stuck in a pending state.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora Infra - Datacenter Move outage</title>
+        <link>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</guid>
+        <category>2025-07-04T21:00:00&#43;00:00</category>
+        <description>Fedora Infrastructure is currently ongoing migration to different datacenter, during this migration majority of the contributor-facing services will be down.
+Therefore it is expected that sync-release (i.e., propose-downstream and pull-from-upstream), koji_build, and bodhi_update Packit workflows will be affected.
+Copr build jobs may be disrupted, full outage is not expected.
+For more details watch:
+ Fedora Infrastructure Status Tracking issue for the datacenter move  Update - 4th July Most services in Fedora Infrastructure should be up and running again.</description>
+        <content type="html">&lt;p&gt;Fedora Infrastructure is currently ongoing migration to different datacenter,
+during this migration majority of the contributor-facing services will be down.&lt;/p&gt;
+&lt;p&gt;Therefore it is expected that &lt;code&gt;sync-release&lt;/code&gt; (i.e., &lt;code&gt;propose-downstream&lt;/code&gt; and
+&lt;code&gt;pull-from-upstream&lt;/code&gt;), &lt;code&gt;koji_build&lt;/code&gt;, and &lt;code&gt;bodhi_update&lt;/code&gt; Packit workflows will be
+affected.&lt;/p&gt;
+&lt;p&gt;Copr build jobs may be disrupted, full outage is not expected.&lt;/p&gt;
+&lt;p&gt;For more details watch:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedorastatus.org&#34;&gt;Fedora Infrastructure Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12603&#34;&gt;Tracking issue for the datacenter move&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;update---4th-july&#34;&gt;Update - 4th July&lt;/h3&gt;
+&lt;p&gt;Most services in Fedora Infrastructure should be up and running again.
+Packit has resumed processing &lt;code&gt;copr_build&lt;/code&gt; jobs, but there are still delays due to jobs being queued during the outage in previous days.
+We are continuing to investigate issues related to pushing and pulling from dist-git, which are currently impacting downstream jobs.
+We’ll share further updates as soon as we have more information.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr SRPM builds failing</title>
+        <link>https://status.packit.dev/issues/2025-03-05-copr-issue/</link>
+        <pubDate>Wed, 05 Mar 2025 08:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-03-05-copr-issue/</guid>
+        <category>2025-03-05T16:30:00&#43;01:00</category>
+        <description>SRPM builds in Copr have been failing, the reason is still unknown, please be patient. You can monitor #buildsys:fedoraproject.org on Matrix for updates.
+Update: Copr SRPM builds are working again. You can retrigger failed jobs with /packit build or /packit rebuild-failed.</description>
+        <content type="html">&lt;p&gt;SRPM builds in Copr have been failing, the reason is still unknown, please be patient.
+You can monitor &lt;a href=&#34;https://matrix.to/#/#buildsys:fedoraproject.org&#34;&gt;#buildsys:fedoraproject.org&lt;/a&gt; on Matrix for updates.&lt;/p&gt;
+&lt;p&gt;Update: Copr SRPM builds are working again. You can &lt;a href=&#34;https://packit.dev/docs/guide#retriggering&#34;&gt;retrigger&lt;/a&gt;
+failed jobs with &lt;code&gt;/packit build&lt;/code&gt; or &lt;code&gt;/packit rebuild-failed&lt;/code&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2025-02-03-maintenance/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-02-03-maintenance/</guid>
+        <category>2025-02-03T15:25:00&#43;01:00</category>
+        <description>Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper redeployment without any inconsistencies.
+We expect an outage for up to 15 minutes. There will be no jobs processed from 2025-02-03 15:15 UTC till the successful redeployment.
+In case you are affected, please retrigger the jobs accordingly (via comments, or Re-Run button on GitHub Checks) once the outage is over.
+Thanks for the understanding.</description>
+        <content type="html">&lt;p&gt;Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper
+redeployment without any inconsistencies.&lt;/p&gt;
+&lt;p&gt;We expect an outage for up to 15 minutes. There will be no jobs processed from
+&lt;code&gt;2025-02-03 15:15 UTC&lt;/code&gt; till the successful redeployment.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comments,
+or Re-Run button on GitHub Checks) once the outage is over.&lt;/p&gt;
+&lt;p&gt;Thanks for the understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr outage</title>
+        <link>https://status.packit.dev/issues/2024-12-23-copr-outage/</link>
+        <pubDate>Mon, 23 Dec 2024 06:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-12-23-copr-outage/</guid>
+        <category>2024-12-23T10:00:00&#43;01:00</category>
+        <description>Copr services are temporarily unavailable due to a service disruption.
+In Packit, this results in Copr builds stuck in a pending state.</description>
+        <content type="html">&lt;p&gt;Copr services are temporarily unavailable due to a service disruption.&lt;/p&gt;
+&lt;p&gt;In Packit, this results in Copr builds stuck in a pending state.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr outage - system update</title>
+        <link>https://status.packit.dev/issues/2024-12-04-copr-outage/</link>
+        <pubDate>Wed, 04 Dec 2024 10:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-12-04-copr-outage/</guid>
+        <category>2024-12-04T16:30:00&#43;01:00</category>
+        <description>There is a Copr outage and as a result Copr builds can be stuck in a pending state.
+Update: the outage is over, any pending jobs should be processed automatically. In case some jobs failed to be triggered, you can trigger them manually.</description>
+        <content type="html">&lt;p&gt;There is a &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12316&#34;&gt;Copr outage&lt;/a&gt;
+and as a result Copr builds can be stuck in a pending state.&lt;/p&gt;
+&lt;p&gt;Update: the outage is over, any pending jobs should be processed automatically.
+In case some jobs failed to be triggered, you can
+&lt;a href=&#34;https://packit.dev/docs/guide#retriggering&#34;&gt;trigger them manually&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2024-10-09-maintenance/</link>
+        <pubDate>Wed, 09 Oct 2024 20:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-09-maintenance/</guid>
+        <category>2024-10-10T20:10:00&#43;02:00</category>
+        <description>Database volume needs to be enlarged to accomodate the load on the Packit Service. To minimize the amount of jobs affected by this maintenance there will be no jobs processed, but they should be enqueued until the outage is over.
+In case you are affected, please retrigger the jobs accordingly (via comment on the affected pull requests, or Re-Run button on GitHub Checks).
+Thanks for understanding.</description>
+        <content type="html">&lt;p&gt;Database volume needs to be enlarged to accomodate the load on the Packit
+Service. To minimize the amount of jobs affected by this maintenance there will
+be no jobs processed, but they should be enqueued until the outage is over.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comment on
+the affected pull requests, or Re-Run button on GitHub Checks).&lt;/p&gt;
+&lt;p&gt;Thanks for understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure outage</title>
+        <link>https://status.packit.dev/issues/2024-09-16-fedora-outage/</link>
+        <pubDate>Sun, 15 Sep 2024 08:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-09-16-fedora-outage/</guid>
+        <category>2024-09-16T17:30:00&#43;00:00</category>
+        <description>Fedora infrastructure is having an outage resulting in some Copr build jobs failing with error Failed to download metadata... Librepo error: Cannot download repomd.xml... You can watch the status of the issue here: https://pagure.io/fedora-infrastructure/issue/12183.</description>
+        <content type="html">&lt;p&gt;Fedora infrastructure is having an outage resulting in some Copr build jobs failing
+with error &lt;code&gt;Failed to download metadata... Librepo error: Cannot download repomd.xml...&lt;/code&gt;
+You can watch the status of the issue here: &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12183&#34;&gt;https://pagure.io/fedora-infrastructure/issue/12183&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Many Copr builds pending</title>
+        <link>https://status.packit.dev/issues/2024-04-23-copr-pending-queue/</link>
+        <pubDate>Tue, 23 Apr 2024 14:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-04-23-copr-pending-queue/</guid>
+        <category>2024-04-23T21:00:00&#43;01:00</category>
+        <description>The Copr backend is under a huge load and many builds are still in a pending state. The Copr builds will take more time than usual to finish. You can monitor the pending queue here: https://copr.fedorainfracloud.org/status/stats/.</description>
+        <content type="html">&lt;p&gt;The Copr backend is under a huge load and many builds are still in a pending state.
+The Copr builds will take more time than usual to finish.
+You can monitor the pending queue here: &lt;a href=&#34;https://copr.fedorainfracloud.org/status/stats/&#34;&gt;https://copr.fedorainfracloud.org/status/stats/&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr builds stuck in pending or running state</title>
+        <link>https://status.packit.dev/issues/2023-12-06-copr-outage/</link>
+        <pubDate>Wed, 06 Dec 2023 12:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-12-06-copr-outage/</guid>
+        <category>2023-12-06T16:00:00&#43;01:00</category>
+        <description>Copr builds could have been stuck in a pending or running state. The issue has been resolved, it may take a while for the affected Copr builds to finish, but there is no need to retrigger them.</description>
+        <content type="html">&lt;p&gt;Copr builds could have been stuck in a pending or running state.
+The issue has been resolved, it may take a while for the affected Copr builds to finish,
+but there is no need to retrigger them.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr Upgrade</title>
+        <link>https://status.packit.dev/issues/2023-11-28-copr-upgrade/</link>
+        <pubDate>Tue, 28 Nov 2023 13:30:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-11-28-copr-upgrade/</guid>
+        <category>2023-11-28T16:45:00&#43;00:00</category>
+        <description>Due to an upgrade of the Fedora Copr Servers, Copr builds might have been delayed or failing.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11648&#34;&gt;upgrade&lt;/a&gt; of the Fedora
+Copr Servers, Copr builds might have been delayed or failing.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] GitLab.com outage</title>
+        <link>https://status.packit.dev/issues/2023-10-10-gitlab-outage/</link>
+        <pubDate>Tue, 10 Oct 2023 04:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-10-10-gitlab-outage/</guid>
+        <category>2023-10-11T14:00:00&#43;02:00</category>
+        <description>GitLab.com workflows are disrupted due to the issue with detecting the upstream/downstream repository in the current working directory.
+Self-hosted GitLab forges are not affected.</description>
+        <content type="html">&lt;p&gt;GitLab.com workflows are disrupted due to the &lt;a href=&#34;https://github.com/packit/packit/issues/2118&#34;&gt;issue&lt;/a&gt; with detecting the upstream/downstream repository in the current working directory.&lt;/p&gt;
+&lt;p&gt;Self-hosted GitLab forges are not affected.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] COPR build failures</title>
+        <link>https://status.packit.dev/issues/2023-09-09-copr-outage/</link>
+        <pubDate>Sat, 09 Sep 2023 12:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-09-09-copr-outage/</guid>
+        <category>2023-09-11T15:00:00&#43;00:00</category>
+        <description>Copr is experiencing issues with builds. We are sorry about that. You can follow the progress in the Copr issue.
+The failure in the COPR logs looks like the following: Machine 5b8689e424334255ab9ace8a58343076 still running. Killing...
+In case you are building in your own COPR project you can go to your project settings and change Mock bootstrap from default to Enable for a quick workaround.</description>
+        <content type="html">&lt;p&gt;Copr is experiencing issues with builds. We are sorry about that. You can follow the progress in the &lt;a href=&#34;https://github.com/fedora-copr/copr/issues/2906&#34;&gt;Copr issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The failure in the COPR logs looks like the following: &lt;code&gt;Machine 5b8689e424334255ab9ace8a58343076 still running. Killing...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In case you are building in your own COPR project you can go to your project settings and change &lt;code&gt;Mock bootstrap&lt;/code&gt; from default to &lt;code&gt;Enable&lt;/code&gt; for a quick workaround.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr frontend instability</title>
+        <link>https://status.packit.dev/issues/2023-09-05-copr-outage/</link>
+        <pubDate>Tue, 05 Sep 2023 15:15:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-09-05-copr-outage/</guid>
+        <category>2023-04-05T15:00:00&#43;00:00</category>
+        <description>Copr is experiencing issues with its frontend which is currently mitigated while Copr team investigates.
+In case some of your builds were not submitted, please retrigger.</description>
+        <content type="html">&lt;p&gt;Copr is experiencing issues with its &lt;a href=&#34;https://github.com/fedora-copr/copr/issues/2897&#34;&gt;frontend&lt;/a&gt;
+which is currently mitigated while Copr team investigates.&lt;/p&gt;
+&lt;p&gt;In case some of your builds were not submitted, please retrigger.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr Upgrade</title>
+        <link>https://status.packit.dev/issues/2023-08-16-copr-upgrade/</link>
+        <pubDate>Wed, 16 Aug 2023 14:30:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-08-16-copr-upgrade/</guid>
+        <category>2023-08-16T16:30:00&#43;02:00</category>
+        <description>There will be a Copr outage starting at
+date --date &amp;#34;2023-08-16 12:30 UTC&amp;#34; which will last approximately 2 hours. The build queue processing will be stopped. During the outage time, we expect a very short downtime for the DNF package storage (less than 10 minutes).
+Reason for outage: We will update the infrastructure machines to the latest packages that are currently being developed.
+Affected Services: https://copr.fedorainfracloud.org/ https://download.copr.fedorainfracloud.org/results/
+Upstream ticket: https://github.com/fedora-copr/copr/issues/2824</description>
+        <content type="html">&lt;p&gt;There will be a Copr outage starting at&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;date --date &amp;#34;2023-08-16 12:30 UTC&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;which will last approximately 2 hours. The build queue processing will be stopped. During the outage time, we expect a very short downtime for the DNF package storage (less than 10 minutes).&lt;/p&gt;
+&lt;h2 id=&#34;reason-for-outage&#34;&gt;Reason for outage:&lt;/h2&gt;
+&lt;p&gt;We will update the infrastructure machines to the latest packages that are currently being developed.&lt;/p&gt;
+&lt;h2 id=&#34;affected-services&#34;&gt;Affected Services:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://copr.fedorainfracloud.org/&#34;&gt;https://copr.fedorainfracloud.org/&lt;/a&gt;
+&lt;a href=&#34;https://download.copr.fedorainfracloud.org/results/&#34;&gt;https://download.copr.fedorainfracloud.org/results/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;upstream-ticket&#34;&gt;Upstream ticket:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/fedora-copr/copr/issues/2824&#34;&gt;https://github.com/fedora-copr/copr/issues/2824&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please join #fedora-buildsys, #fedora-admin or #fedora-noc on irc.libera.chat
+or add comments to this ticket.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Upgrade of Copr servers</title>
+        <link>https://status.packit.dev/issues/2023-05-25-copr-upgrade/</link>
+        <pubDate>Thu, 25 May 2023 10:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-05-25-copr-upgrade/</guid>
+        <category>2023-05-25T13:00:00&#43;00:00</category>
+        <description>Due to an upgrade of the Fedora Copr Servers, Copr builds might be delayed or failing. The upgrade should last approximately 3 hours.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11332&#34;&gt;upgrade&lt;/a&gt; of the Fedora
+Copr Servers, Copr builds might be delayed or failing. The upgrade should last approximately 3 hours.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Upgrade of Copr servers</title>
+        <link>https://status.packit.dev/issues/2023-04-05-copr-outage/</link>
+        <pubDate>Wed, 05 Apr 2023 12:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-04-05-copr-outage/</guid>
+        <category>2023-04-05T15:00:00&#43;00:00</category>
+        <description>Due to an upgrade of the Fedora Copr Servers, Copr builds might be delayed or failing. The upgrade should last approximately 3 hours.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11201&#34;&gt;upgrade&lt;/a&gt; of the Fedora
+Copr Servers, Copr builds might be delayed or failing. The upgrade should last approximately 3 hours.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Running grouping migrations</title>
+        <link>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</link>
+        <pubDate>Tue, 14 Feb 2023 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</guid>
+        <category>2023-02-14T04:00:00&#43;01:00</category>
+        <description>We are updating our database schema to facilitate further development. As a part of this process, multiple database migrations will have to be run. The first step is grouping together related builds and test runs. The migrations will happen during the next deployment to production, on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to take roughly 40 minutes, after which the service should come back up.</description>
+        <content type="html">&lt;p&gt;We are updating our database schema to facilitate further development.
+As a part of this process, multiple database migrations will have to
+be run. The first step is grouping together related builds and test
+runs. The migrations will happen during the next deployment to production,
+on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to
+take roughly 40 minutes, after which the service should come back up.&lt;/p&gt;
+&lt;p&gt;Since significant refactoring was paired with these changes, there may
+be some bugs/regressions that we did not spot on staging. Please,
+contact us via the usual means if you spot anything suspicious.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Upgrade of Copr Servers</title>
+        <link>https://status.packit.dev/issues/2022-11-28-copr-outage/</link>
+        <pubDate>Mon, 28 Nov 2022 16:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2022-11-28-copr-outage/</guid>
+        <category>2022-11-28T21:00:00&#43;01:00</category>
+        <description>Due to an upgrade of the Fedora Copr Servers, Copr builds might have been failing.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11011&#34;&gt;upgrade&lt;/a&gt; of the Fedora
+Copr Servers, Copr builds might have been failing.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr storage move</title>
+        <link>https://status.packit.dev/issues/2022-10-28-30-copr-storage-move/</link>
+        <pubDate>Fri, 28 Oct 2022 21:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-10-28-30-copr-storage-move/</guid>
+        <category>2022-10-30T08:00:00&#43;02:00</category>
+        <description>Copr team is performing a backend storage move over the weekend of Oct 28-30th. Building in Copr will be disrupted or unavailable during this period.
+For more info, please follow the Copr outage announcement.
+Update: the upgrade was successful and Copr is fully operational.</description>
+        <content type="html">&lt;p&gt;Copr team is performing a backend storage move over the weekend of Oct 28-30th.
+Building in Copr will be disrupted or unavailable during this period.&lt;/p&gt;
+&lt;p&gt;For more info, please follow the &lt;a href=&#34;https://lists.fedoraproject.org/archives/list/copr-devel@lists.fedorahosted.org/thread/TRNW5JVCFIQJDUCND4KZWZVM7XVCYLVL/&#34;&gt;Copr outage announcement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Update: the upgrade was successful and Copr is fully operational.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Issues with the task execution</title>
+        <link>https://status.packit.dev/issues/2022-10-11-outage/</link>
+        <pubDate>Tue, 11 Oct 2022 13:57:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-10-11-outage/</guid>
+        <category>2022-10-11T15:12:00&#43;02:00</category>
+        <description>We are experiencing issues with the execution of the tasks. (The statuses are waiting in the The task was accepted. state.) We are investigating the cause. Sorry about the possible troubles. We will try to fix this as soon as possible.
+Updates:
+ Tue Oct 11 12:24:02 UTC: We are slowly going through the queue. Please, be patient. Tue Oct 11 13:12:36 UTC: We have gone through the queue and you should experience regular response times.</description>
+        <content type="html">&lt;p&gt;We are experiencing issues with the execution of the tasks.
+(The statuses are waiting in the &lt;code&gt;The task was accepted.&lt;/code&gt; state.)
+We are investigating the cause.
+Sorry about the possible troubles.
+We will try to fix this as soon as possible.&lt;/p&gt;
+&lt;p&gt;Updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tue Oct 11 12:24:02 UTC: We are slowly going through the queue. Please, be patient.&lt;/li&gt;
+&lt;li&gt;Tue Oct 11 13:12:36 UTC: We have gone through the queue and you should experience regular response times.
+The original cause is still not known but the problem probably occured during an SRPM upload to Copr.
+(It can be a fault on our or Copr side.)&lt;/li&gt;
+&lt;li&gt;Wed Oct 12 05:27:46 UTC: Service operated normally since the last update.
+To reduce the chance of this, we &lt;a href=&#34;https://packit.dev/posts/copr-srpms/&#34;&gt;plan to move the building of SRPMs to Copr&lt;/a&gt;.
+(Currently default for new installations and opt in for other projects.)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Upgrade of Copr Servers</title>
+        <link>https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/</link>
+        <pubDate>Wed, 22 Jun 2022 14:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-06-22-upgrade-of-copr-servers/</guid>
+        <category>2022-06-22T16:10:00&#43;02:00</category>
+        <description>Due to an ongoing upgrade of the Fedora Copr Servers, building might be delayed or failing. The upgrade should last ~3 hours.</description>
+        <content type="html">&lt;p&gt;Due to an &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/10780&#34;&gt;ongoing
+upgrade&lt;/a&gt; of the Fedora
+Copr Servers, building might be delayed or failing. The upgrade should last ~3
+hours.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

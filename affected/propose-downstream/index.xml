@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Propose downstream on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/propose-downstream/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-02-26T13:00:00+00:00</lastBuildDate>
+    <updated>2024-02-26T13:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/propose-downstream/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure authentication problem</title>
+        <link>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</link>
+        <pubDate>Mon, 26 Feb 2024 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</guid>
+        <category>2024-02-26T13:28:00&#43;00:00</category>
+        <description>There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it (mostly propose_downstream, pull_from_upstream, koji_build, bodhi_update) as Packit is unable to authenticate. To stay updated on the root cause of this problem, please track this issue.
+The problem should be now resolved. You can retrigger the failed jobs by:
+ /packit propose-downstream comment in any upstream issue /packit pull-from-upstream / /packit koji-build / /packit create-update comment in any dist-git pull-request  </description>
+        <content type="html">&lt;p&gt;There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it
+(mostly &lt;code&gt;propose_downstream&lt;/code&gt;, &lt;code&gt;pull_from_upstream&lt;/code&gt;, &lt;code&gt;koji_build&lt;/code&gt;, &lt;code&gt;bodhi_update&lt;/code&gt;)
+as Packit is unable to authenticate. To stay updated on the root cause of this problem, please
+track &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11793&#34;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem should be now resolved. You can retrigger the failed jobs by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/packit propose-downstream&lt;/code&gt; comment in any upstream issue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/packit pull-from-upstream&lt;/code&gt; / &lt;code&gt;/packit koji-build&lt;/code&gt; / &lt;code&gt;/packit create-update&lt;/code&gt; comment in any dist-git pull-request&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

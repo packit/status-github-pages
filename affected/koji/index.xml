@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Koji on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/koji/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-06-30T01:00:00+00:00</lastBuildDate>
+    <updated>2025-06-30T01:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/koji/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Fedora Infra - Datacenter Move outage</title>
+        <link>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</guid>
+        <category>2025-07-04T21:00:00&#43;00:00</category>
+        <description>Fedora Infrastructure is currently ongoing migration to different datacenter, during this migration majority of the contributor-facing services will be down.
+Therefore it is expected that sync-release (i.e., propose-downstream and pull-from-upstream), koji_build, and bodhi_update Packit workflows will be affected.
+Copr build jobs may be disrupted, full outage is not expected.
+For more details watch:
+ Fedora Infrastructure Status Tracking issue for the datacenter move  Update - 4th July Most services in Fedora Infrastructure should be up and running again.</description>
+        <content type="html">&lt;p&gt;Fedora Infrastructure is currently ongoing migration to different datacenter,
+during this migration majority of the contributor-facing services will be down.&lt;/p&gt;
+&lt;p&gt;Therefore it is expected that &lt;code&gt;sync-release&lt;/code&gt; (i.e., &lt;code&gt;propose-downstream&lt;/code&gt; and
+&lt;code&gt;pull-from-upstream&lt;/code&gt;), &lt;code&gt;koji_build&lt;/code&gt;, and &lt;code&gt;bodhi_update&lt;/code&gt; Packit workflows will be
+affected.&lt;/p&gt;
+&lt;p&gt;Copr build jobs may be disrupted, full outage is not expected.&lt;/p&gt;
+&lt;p&gt;For more details watch:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedorastatus.org&#34;&gt;Fedora Infrastructure Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12603&#34;&gt;Tracking issue for the datacenter move&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;update---4th-july&#34;&gt;Update - 4th July&lt;/h3&gt;
+&lt;p&gt;Most services in Fedora Infrastructure should be up and running again.
+Packit has resumed processing &lt;code&gt;copr_build&lt;/code&gt; jobs, but there are still delays due to jobs being queued during the outage in previous days.
+We are continuing to investigate issues related to pushing and pulling from dist-git, which are currently impacting downstream jobs.
+We’ll share further updates as soon as we have more information.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2025-02-03-maintenance/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-02-03-maintenance/</guid>
+        <category>2025-02-03T15:25:00&#43;01:00</category>
+        <description>Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper redeployment without any inconsistencies.
+We expect an outage for up to 15 minutes. There will be no jobs processed from 2025-02-03 15:15 UTC till the successful redeployment.
+In case you are affected, please retrigger the jobs accordingly (via comments, or Re-Run button on GitHub Checks) once the outage is over.
+Thanks for the understanding.</description>
+        <content type="html">&lt;p&gt;Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper
+redeployment without any inconsistencies.&lt;/p&gt;
+&lt;p&gt;We expect an outage for up to 15 minutes. There will be no jobs processed from
+&lt;code&gt;2025-02-03 15:15 UTC&lt;/code&gt; till the successful redeployment.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comments,
+or Re-Run button on GitHub Checks) once the outage is over.&lt;/p&gt;
+&lt;p&gt;Thanks for the understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2024-10-09-maintenance/</link>
+        <pubDate>Wed, 09 Oct 2024 20:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-09-maintenance/</guid>
+        <category>2024-10-10T20:10:00&#43;02:00</category>
+        <description>Database volume needs to be enlarged to accomodate the load on the Packit Service. To minimize the amount of jobs affected by this maintenance there will be no jobs processed, but they should be enqueued until the outage is over.
+In case you are affected, please retrigger the jobs accordingly (via comment on the affected pull requests, or Re-Run button on GitHub Checks).
+Thanks for understanding.</description>
+        <content type="html">&lt;p&gt;Database volume needs to be enlarged to accomodate the load on the Packit
+Service. To minimize the amount of jobs affected by this maintenance there will
+be no jobs processed, but they should be enqueued until the outage is over.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comment on
+the affected pull requests, or Re-Run button on GitHub Checks).&lt;/p&gt;
+&lt;p&gt;Thanks for understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure authentication problem</title>
+        <link>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</link>
+        <pubDate>Mon, 26 Feb 2024 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</guid>
+        <category>2024-02-26T13:28:00&#43;00:00</category>
+        <description>There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it (mostly propose_downstream, pull_from_upstream, koji_build, bodhi_update) as Packit is unable to authenticate. To stay updated on the root cause of this problem, please track this issue.
+The problem should be now resolved. You can retrigger the failed jobs by:
+ /packit propose-downstream comment in any upstream issue /packit pull-from-upstream / /packit koji-build / /packit create-update comment in any dist-git pull-request  </description>
+        <content type="html">&lt;p&gt;There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it
+(mostly &lt;code&gt;propose_downstream&lt;/code&gt;, &lt;code&gt;pull_from_upstream&lt;/code&gt;, &lt;code&gt;koji_build&lt;/code&gt;, &lt;code&gt;bodhi_update&lt;/code&gt;)
+as Packit is unable to authenticate. To stay updated on the root cause of this problem, please
+track &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11793&#34;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem should be now resolved. You can retrigger the failed jobs by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/packit propose-downstream&lt;/code&gt; comment in any upstream issue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/packit pull-from-upstream&lt;/code&gt; / &lt;code&gt;/packit koji-build&lt;/code&gt; / &lt;code&gt;/packit create-update&lt;/code&gt; comment in any dist-git pull-request&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure authentication problem</title>
+        <link>https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/</link>
+        <pubDate>Mon, 22 Jan 2024 22:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/</guid>
+        <category>2024-01-23T21:00:00&#43;01:00</category>
+        <description>The Fedora account system is currently down, leading to failures of jobs that interact with it (mostly propose_downstream, pull_from_upstream, koji_build, bodhi_update) as Packit is unable to authenticate. To stay updated on the root cause of this problem, please track this issue.
+The problem should be now resolved. You can retrigger the failed jobs by:
+ /packit propose-downstream comment in any upstream issue /packit pull-from-upstream / /packit koji-build / /packit create-update comment in any dist-git pull-request  </description>
+        <content type="html">&lt;p&gt;The Fedora account system is currently down, leading to failures of jobs that interact with it
+(mostly &lt;code&gt;propose_downstream&lt;/code&gt;, &lt;code&gt;pull_from_upstream&lt;/code&gt;, &lt;code&gt;koji_build&lt;/code&gt;, &lt;code&gt;bodhi_update&lt;/code&gt;)
+as Packit is unable to authenticate. To stay updated on the root cause of this problem, please
+track &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11733&#34;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem should be now resolved. You can retrigger the failed jobs by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/packit propose-downstream&lt;/code&gt; comment in any upstream issue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/packit pull-from-upstream&lt;/code&gt; / &lt;code&gt;/packit koji-build&lt;/code&gt; / &lt;code&gt;/packit create-update&lt;/code&gt; comment in any dist-git pull-request&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Running grouping migrations</title>
+        <link>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</link>
+        <pubDate>Tue, 14 Feb 2023 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</guid>
+        <category>2023-02-14T04:00:00&#43;01:00</category>
+        <description>We are updating our database schema to facilitate further development. As a part of this process, multiple database migrations will have to be run. The first step is grouping together related builds and test runs. The migrations will happen during the next deployment to production, on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to take roughly 40 minutes, after which the service should come back up.</description>
+        <content type="html">&lt;p&gt;We are updating our database schema to facilitate further development.
+As a part of this process, multiple database migrations will have to
+be run. The first step is grouping together related builds and test
+runs. The migrations will happen during the next deployment to production,
+on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to
+take roughly 40 minutes, after which the service should come back up.&lt;/p&gt;
+&lt;p&gt;Since significant refactoring was paired with these changes, there may
+be some bugs/regressions that we did not spot on staging. Please,
+contact us via the usual means if you spot anything suspicious.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

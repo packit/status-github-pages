@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Workers on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/workers/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-02-03T15:15:00+01:00</lastBuildDate>
+    <updated>2025-02-03T15:15:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/workers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2025-02-03-maintenance/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-02-03-maintenance/</guid>
+        <category>2025-02-03T15:25:00&#43;01:00</category>
+        <description>Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper redeployment without any inconsistencies.
+We expect an outage for up to 15 minutes. There will be no jobs processed from 2025-02-03 15:15 UTC till the successful redeployment.
+In case you are affected, please retrigger the jobs accordingly (via comments, or Re-Run button on GitHub Checks) once the outage is over.
+Thanks for the understanding.</description>
+        <content type="html">&lt;p&gt;Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper
+redeployment without any inconsistencies.&lt;/p&gt;
+&lt;p&gt;We expect an outage for up to 15 minutes. There will be no jobs processed from
+&lt;code&gt;2025-02-03 15:15 UTC&lt;/code&gt; till the successful redeployment.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comments,
+or Re-Run button on GitHub Checks) once the outage is over.&lt;/p&gt;
+&lt;p&gt;Thanks for the understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2024-10-09-maintenance/</link>
+        <pubDate>Wed, 09 Oct 2024 20:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-09-maintenance/</guid>
+        <category>2024-10-10T20:10:00&#43;02:00</category>
+        <description>Database volume needs to be enlarged to accomodate the load on the Packit Service. To minimize the amount of jobs affected by this maintenance there will be no jobs processed, but they should be enqueued until the outage is over.
+In case you are affected, please retrigger the jobs accordingly (via comment on the affected pull requests, or Re-Run button on GitHub Checks).
+Thanks for understanding.</description>
+        <content type="html">&lt;p&gt;Database volume needs to be enlarged to accomodate the load on the Packit
+Service. To minimize the amount of jobs affected by this maintenance there will
+be no jobs processed, but they should be enqueued until the outage is over.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comment on
+the affected pull requests, or Re-Run button on GitHub Checks).&lt;/p&gt;
+&lt;p&gt;Thanks for understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure authentication problem</title>
+        <link>https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/</link>
+        <pubDate>Mon, 22 Jan 2024 22:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-01-23-fedora-auth-problem/</guid>
+        <category>2024-01-23T21:00:00&#43;01:00</category>
+        <description>The Fedora account system is currently down, leading to failures of jobs that interact with it (mostly propose_downstream, pull_from_upstream, koji_build, bodhi_update) as Packit is unable to authenticate. To stay updated on the root cause of this problem, please track this issue.
+The problem should be now resolved. You can retrigger the failed jobs by:
+ /packit propose-downstream comment in any upstream issue /packit pull-from-upstream / /packit koji-build / /packit create-update comment in any dist-git pull-request  </description>
+        <content type="html">&lt;p&gt;The Fedora account system is currently down, leading to failures of jobs that interact with it
+(mostly &lt;code&gt;propose_downstream&lt;/code&gt;, &lt;code&gt;pull_from_upstream&lt;/code&gt;, &lt;code&gt;koji_build&lt;/code&gt;, &lt;code&gt;bodhi_update&lt;/code&gt;)
+as Packit is unable to authenticate. To stay updated on the root cause of this problem, please
+track &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11733&#34;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem should be now resolved. You can retrigger the failed jobs by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/packit propose-downstream&lt;/code&gt; comment in any upstream issue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/packit pull-from-upstream&lt;/code&gt; / &lt;code&gt;/packit koji-build&lt;/code&gt; / &lt;code&gt;/packit create-update&lt;/code&gt; comment in any dist-git pull-request&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cluster upgrade</title>
+        <link>https://status.packit.dev/issues/2023-10-02-cluster-upgrade/</link>
+        <pubDate>Mon, 02 Oct 2023 08:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-10-02-cluster-upgrade/</guid>
+        <category>2023-10-02T10:00:00&#43;00:00</category>
+        <description>A cluster upgrade is scheduled to start on Mon October 2nd at 08:00 UTC and last approximately 90 minutes.
+We do not expect any significant disruption.
+The started jobs might be executed with a delay and if you think Packit does not react to your events, try to retrigger the action via comment command.</description>
+        <content type="html">&lt;p&gt;A cluster upgrade is scheduled to start on Mon October 2nd at 08:00 UTC and last approximately 90 minutes.&lt;/p&gt;
+&lt;p&gt;We do not expect any significant disruption.&lt;/p&gt;
+&lt;p&gt;The started jobs might be executed with a delay
+and if you think Packit does not react to your events,
+try to retrigger the action via
+&lt;a href=&#34;https://packit.dev/docs/guide/#how-to-re-trigger-packit-actions-in-your-pull-request&#34;&gt;comment command&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Outage</title>
+        <link>https://status.packit.dev/issues/2023-08-15-outage/</link>
+        <pubDate>Tue, 15 Aug 2023 04:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-08-15-outage/</guid>
+        <category>2023-08-15T11:03:00&#43;02:00</category>
+        <description>We are having an outage that started on Tuesday EU early morning. Jobs during this time could get stuck in pending state. This is caused by a failed database schema migration because of a lack of memory during the automatic deployment of the new production images. We are working on the fix and apologize for the inconvenience.
+Update: Migration is completed. You might need to retrigger the jobs (i.e. via comment).</description>
+        <content type="html">&lt;p&gt;We are having an outage that started on Tuesday EU early morning. Jobs during this time could get stuck
+in pending state.
+This is caused by a failed database schema migration because of a lack of memory during the automatic deployment
+of the new production images. We are working on the fix and apologize for the inconvenience.&lt;/p&gt;
+&lt;p&gt;Update: Migration is completed. You might need to retrigger the jobs (i.e. via comment).&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cluster Update</title>
+        <link>https://status.packit.dev/issues/2023-05-03-cluster-update/</link>
+        <pubDate>Wed, 03 May 2023 10:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-05-03-cluster-update/</guid>
+        <category>2023-05-03T11:15:00&#43;02:00</category>
+        <description>The OpenShift cluster is currently updating from 4.11.28 to 4.12.13</description>
+        <content type="html">&lt;p&gt;The OpenShift cluster is currently updating from 4.11.28 to 4.12.13&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Issue with pushing to dist-git</title>
+        <link>https://status.packit.dev/issues/2023-04-12-push-to-distgit-issue/</link>
+        <pubDate>Tue, 11 Apr 2023 18:28:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-04-12-push-to-distgit-issue/</guid>
+        <category>2023-04-12T16:30:00&#43;02:00</category>
+        <description>Due to a new pre-push hook being applied in dist-git, we are unable to create pull-requests from fork as part of propose-downstream and pull-from-upstream jobs.
+We are sorry about that and are working on a way how to resolve this.</description>
+        <content type="html">&lt;p&gt;Due to &lt;a href=&#34;https://docs.pagure.org/rpkg/releases/1.66.html#checking-a-repo-configuration-before-git-push-with-a-git-hook-script&#34;&gt;a new pre-push hook&lt;/a&gt;
+being applied in dist-git, we are unable to create pull-requests
+from fork as part of &lt;code&gt;propose-downstream&lt;/code&gt; and &lt;code&gt;pull-from-upstream&lt;/code&gt; jobs.&lt;/p&gt;
+&lt;p&gt;We are sorry about that and are working on a way how to resolve this.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SLO1 Error Budget issues</title>
+        <link>https://status.packit.dev/issues/2023-03-09-slo1-error-budget/</link>
+        <pubDate>Thu, 09 Mar 2023 10:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-03-09-slo1-error-budget/</guid>
+        <category>2023-06-08T10:00:00&#43;01:00</category>
+        <description>We are having SLO1 error budget issues.
+These are mostly caused by performance issues, we are working on them and prioritizing more improvements (see https://github.com/packit/packit-service/issues/1954 ).
+We are sorry for any slowness you can experience.</description>
+        <content type="html">&lt;p&gt;We are having &lt;a href=&#34;https://packit.dev/docs/service-level-objectives/&#34;&gt;SLO1&lt;/a&gt; error budget issues.&lt;/p&gt;
+&lt;p&gt;These are mostly caused by performance issues, we are working on them and prioritizing more improvements (see &lt;a href=&#34;https://github.com/packit/packit-service/issues/1954&#34;&gt;https://github.com/packit/packit-service/issues/1954&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;We are sorry for any slowness you can experience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Running grouping migrations</title>
+        <link>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</link>
+        <pubDate>Tue, 14 Feb 2023 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</guid>
+        <category>2023-02-14T04:00:00&#43;01:00</category>
+        <description>We are updating our database schema to facilitate further development. As a part of this process, multiple database migrations will have to be run. The first step is grouping together related builds and test runs. The migrations will happen during the next deployment to production, on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to take roughly 40 minutes, after which the service should come back up.</description>
+        <content type="html">&lt;p&gt;We are updating our database schema to facilitate further development.
+As a part of this process, multiple database migrations will have to
+be run. The first step is grouping together related builds and test
+runs. The migrations will happen during the next deployment to production,
+on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to
+take roughly 40 minutes, after which the service should come back up.&lt;/p&gt;
+&lt;p&gt;Since significant refactoring was paired with these changes, there may
+be some bugs/regressions that we did not spot on staging. Please,
+contact us via the usual means if you spot anything suspicious.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SRPM builds stuck in Submitted state</title>
+        <link>https://status.packit.dev/issues/2023-01-21-srpm-builds-stuck-in-submitted-state/</link>
+        <pubDate>Fri, 20 Jan 2023 21:19:06 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-01-21-srpm-builds-stuck-in-submitted-state/</guid>
+        <category>2023-01-21T9:51:30&#43;01:00</category>
+        <description>Workers for processing long-running tasks got stuck on Friday evening with to most visible consequence being the SRPM builds stuck in &amp;lsquo;Submitted&amp;rsquo; state.
+The workers were restarted on Sat morning and all SRPMs were sent to Copr to build and the jobs pipelines were processed.
+The cause is not known at the time of resolving the issue.</description>
+        <content type="html">&lt;p&gt;Workers for processing long-running tasks got stuck on Friday evening
+with to most visible consequence being the SRPM builds stuck in &amp;lsquo;Submitted&amp;rsquo; state.&lt;/p&gt;
+&lt;p&gt;The workers were restarted on Sat morning and all SRPMs were sent to Copr
+to build and the jobs pipelines were processed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/packit/packit-service/issues/1858&#34;&gt;The cause is not known at the time of resolving the issue.&lt;/a&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Outage</title>
+        <link>https://status.packit.dev/issues/2022-11-25-outage/</link>
+        <pubDate>Thu, 24 Nov 2022 23:24:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2022-11-25-outage/</guid>
+        <category>2022-11-25T08:35:00&#43;01:00</category>
+        <description>We are having resource issues in our cluster and particular parts of the deployment can be down.
+Updates:
+ 2022-11-25T08:35:00+01:00: Stage instance has been scaled down so our production instance has more resources. Production instance should be fine now. We are investigating more.  </description>
+        <content type="html">&lt;p&gt;We are having resource issues in our cluster and particular parts of the deployment can be down.&lt;/p&gt;
+&lt;p&gt;Updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;2022-11-25T08:35:00+01:00&lt;/code&gt;: Stage instance has been scaled down so our production instance has more resources.
+Production instance should be fine now. We are investigating more.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Copr builds and tests on commits and releases ignored</title>
+        <link>https://status.packit.dev/issues/2022-11-01-commit-release-trigger/</link>
+        <pubDate>Tue, 01 Nov 2022 03:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2022-11-01-commit-release-trigger/</guid>
+        <category>2022-11-02T10:30:00&#43;01:00</category>
+        <description>There was a bug introduced with Tuesday&amp;rsquo;s production update causing Copr builds and tests for commit and release triggers were not executed.</description>
+        <content type="html">&lt;p&gt;There was a bug introduced with Tuesday&amp;rsquo;s production update causing Copr builds and tests
+for &lt;code&gt;commit&lt;/code&gt; and &lt;code&gt;release&lt;/code&gt; triggers were not executed.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Issues with the task execution</title>
+        <link>https://status.packit.dev/issues/2022-10-11-outage/</link>
+        <pubDate>Tue, 11 Oct 2022 13:57:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-10-11-outage/</guid>
+        <category>2022-10-11T15:12:00&#43;02:00</category>
+        <description>We are experiencing issues with the execution of the tasks. (The statuses are waiting in the The task was accepted. state.) We are investigating the cause. Sorry about the possible troubles. We will try to fix this as soon as possible.
+Updates:
+ Tue Oct 11 12:24:02 UTC: We are slowly going through the queue. Please, be patient. Tue Oct 11 13:12:36 UTC: We have gone through the queue and you should experience regular response times.</description>
+        <content type="html">&lt;p&gt;We are experiencing issues with the execution of the tasks.
+(The statuses are waiting in the &lt;code&gt;The task was accepted.&lt;/code&gt; state.)
+We are investigating the cause.
+Sorry about the possible troubles.
+We will try to fix this as soon as possible.&lt;/p&gt;
+&lt;p&gt;Updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tue Oct 11 12:24:02 UTC: We are slowly going through the queue. Please, be patient.&lt;/li&gt;
+&lt;li&gt;Tue Oct 11 13:12:36 UTC: We have gone through the queue and you should experience regular response times.
+The original cause is still not known but the problem probably occured during an SRPM upload to Copr.
+(It can be a fault on our or Copr side.)&lt;/li&gt;
+&lt;li&gt;Wed Oct 12 05:27:46 UTC: Service operated normally since the last update.
+To reduce the chance of this, we &lt;a href=&#34;https://packit.dev/posts/copr-srpms/&#34;&gt;plan to move the building of SRPMs to Copr&lt;/a&gt;.
+(Currently default for new installations and opt in for other projects.)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Failing SRPM builds done in Copr</title>
+        <link>https://status.packit.dev/issues/2022-08-23-srpm-builds-failing/</link>
+        <pubDate>Tue, 23 Aug 2022 04:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-08-23-srpm-builds-failing/</guid>
+        <category>2022-08-23T09:00:00&#43;02:00</category>
+        <description>SRPM builds happening in Copr (for packages using the srpm_build_deps config key) were failing due to a dependency issue.</description>
+        <content type="html">&lt;p&gt;SRPM builds happening in Copr (for packages using the &lt;code&gt;srpm_build_deps&lt;/code&gt; config
+key) were failing due to a dependency issue.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SRPM builds done in Copr are failing</title>
+        <link>https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/</link>
+        <pubDate>Tue, 21 Jun 2022 10:18:22 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2022-06-21-srpm-builds-failing/</guid>
+        <category>2022-06-21T11:10:22&#43;02:00</category>
+        <description>SRPM builds happening in Copr (for packages using the srpm_build_deps config key) are failing due to a dependency issue. We are working on a fix.</description>
+        <content type="html">&lt;p&gt;SRPM builds happening in Copr (for packages using the &lt;code&gt;srpm_build_deps&lt;/code&gt; config
+key) are failing due to a dependency issue. We are working on a fix.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Longer response times</title>
+        <link>https://status.packit.dev/issues/2021-12-07-response-delays/</link>
+        <pubDate>Tue, 07 Dec 2021 09:06:14 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2021-12-07-response-delays/</guid>
+        <category>2021-12-07T11:49:14&#43;01:00</category>
+        <description>Our service got overwhelmed by the events coming from a Fedora dist-git (caused by the epel-9 branching) causing the longer responses.
+We have scaled up the workers and the queue is getting shorter. We are planning the next steps to be resilient next time. Sorry about the disturbance.
+update: The queue is now empty and you can expect regular operational times.</description>
+        <content type="html">&lt;p&gt;Our service got overwhelmed by the events coming from a Fedora dist-git (caused by the &lt;code&gt;epel-9&lt;/code&gt; branching) causing the longer responses.&lt;/p&gt;
+&lt;p&gt;We have scaled up the workers and the queue is getting shorter.
+We are planning the next steps to be resilient next time. Sorry about the disturbance.&lt;/p&gt;
+&lt;p&gt;update: The queue is now empty and you can expect regular operational times.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Moving production Packit Service to a new cluster</title>
+        <link>https://status.packit.dev/issues/2021-11-16-auto-prod/</link>
+        <pubDate>Thu, 18 Nov 2021 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-16-auto-prod/</guid>
+        <category>2021-11-18 02:33:00</category>
+        <description>We are going to move deployment of our production Packit Service to a new cluster. It should take about 1/2 an hour, during which the workers will be down and queries to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated. Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are up again.</description>
+        <content type="html">&lt;p&gt;We are going to move deployment of our production Packit Service to a new cluster.
+It should take about 1/2 an hour, during which the workers will be down and queries
+to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated.
+Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are
+up again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] PostgreSQL db upgrade</title>
+        <link>https://status.packit.dev/issues/2021-06-04-postgresql-12/</link>
+        <pubDate>Fri, 04 Jun 2021 07:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-04-postgresql-12/</guid>
+        <category>2021-06-04 09:10:40&#43;00:00</category>
+        <description>Upgrading our PostgreSQL database from version 10 to version 12.</description>
+        <content type="html">&lt;p&gt;Upgrading our PostgreSQL database from version 10 to version 12.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

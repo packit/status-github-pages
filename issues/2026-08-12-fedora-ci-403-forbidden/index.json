@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "No pull-request statuses from Packit Fedora CI",
+  "createdAt": "2026-08-12 00:00:00 +0200 +0200",
+  "lastMod": "2026-09-03 08:53:55 +0200 +0200",
+  "permalink": "https://status.packit.dev/issues/2026-08-12-fedora-ci-403-forbidden/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2026-08-12T16:30:00+02:00",
+  "affected": ["Fedora CI"],
+  "filename": "2026-08-12-fedora-ci-403-forbidden.md"
+}
