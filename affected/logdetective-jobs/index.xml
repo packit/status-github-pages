@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>logdetective jobs on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/logdetective-jobs/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-10-13T14:22:18+02:00</lastBuildDate>
+    <updated>2026-10-13T14:22:18+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/logdetective-jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Logdetective integration disrupted</title>
+        <link>https://status.packit.dev/issues/2026-10-13-logdetective-integration/</link>
+        <pubDate>Tue, 13 Oct 2026 14:22:18 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2026-10-13-logdetective-integration/</guid>
+        <category>2026-10-14T11:00:00&#43;02:00</category>
+        <description>The Logdetective integration is disrupted.
+We are working on integrating packit-service with the new Logdetective async service version.
+Update: The integration of the new Logdetective API has been finished and Logdetective analysis jobs are functional again.</description>
+        <content type="html">&lt;p&gt;The Logdetective integration is disrupted.&lt;/p&gt;
+&lt;p&gt;We are working on integrating &lt;code&gt;packit-service&lt;/code&gt; with the new Logdetective async service version.&lt;/p&gt;
+&lt;p&gt;Update: The integration of the new Logdetective API has been finished and Logdetective analysis jobs are functional again.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

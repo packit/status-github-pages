@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "logdetective jobs",
+  "permalink": "https://status.packit.dev/affected/logdetective-jobs/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Logdetective integration disrupted",
+        "createdAt": "2026-10-13 14:22:18 +0200 +0200",
+        "lastMod": "2026-10-14 14:37:18 +0200 +0200",
+        "permalink": "https://status.packit.dev/issues/2026-10-13-logdetective-integration/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2026-10-14T11:00:00+02:00",
+        "affected": ["logdetective jobs"],
+        "filename": "2026-10-13-logdetective-integration.md"
+      }
+    
+  ]
+}
+
+
+
+
+

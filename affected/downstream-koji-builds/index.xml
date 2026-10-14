@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Downstream Koji builds on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/downstream-koji-builds/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-05-27T14:20:00+02:00</lastBuildDate>
+    <updated>2024-05-27T14:20:00+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/downstream-koji-builds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Fedora integration outage</title>
+        <link>https://status.packit.dev/issues/2024-05-27-fedora-outage/</link>
+        <pubDate>Mon, 27 May 2024 14:20:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-05-27-fedora-outage/</guid>
+        <category>2024-05-27T18:35:00&#43;02:00</category>
+        <description>One of dependencies for our Fedora Messaging consumer has not been installed during the image build which resulted in an outage of the Fedora downstream integration.
+Fedora integration is disrupted:
+ since 2pm CEST for our stage deployment since 6pm CEST for our production deployment  Please trigger the respective jobs manually, if you are affected, once the outage has been resolved.
+We are very sorry for the inconvenience!
+Edit #1: Issue has been resolved for both production and staging deployments by rolling back to the previous image builds.</description>
+        <content type="html">&lt;p&gt;One of dependencies for our Fedora Messaging consumer has not been installed
+during the image build which resulted in an outage of the Fedora downstream
+integration.&lt;/p&gt;
+&lt;p&gt;Fedora integration is disrupted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;since 2pm CEST for our stage deployment&lt;/li&gt;
+&lt;li&gt;since 6pm CEST for our production deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please trigger the respective jobs manually, if you are affected, once the outage has been resolved.&lt;/p&gt;
+&lt;p&gt;We are very sorry for the inconvenience!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit #1&lt;/em&gt;: Issue has been resolved for both production and staging deployments
+by rolling back to the previous image builds.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Outage of automatic triggering of downstream Koji builds</title>
+        <link>https://status.packit.dev/issues/2024-01-11-downstream-koji-builds-outage/</link>
+        <pubDate>Thu, 11 Jan 2024 09:30:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-01-11-downstream-koji-builds-outage/</guid>
+        <category>2024-01-15T15:20:00&#43;01:00</category>
+        <description>Since 2024-01-11 until 2024-01-15 downstream Koji builds weren&amp;rsquo;t automatically triggered due to Fedora Infrastructure changes. Please trigger your builds manually if you are affected.</description>
+        <content type="html">&lt;p&gt;Since 2024-01-11 until 2024-01-15 downstream Koji builds weren&amp;rsquo;t automatically triggered
+due to Fedora Infrastructure changes. Please &lt;a href=&#34;https://packit.dev/docs/fedora-releases-guide#retriggering-2&#34;&gt;trigger&lt;/a&gt;
+your builds manually if you are affected.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

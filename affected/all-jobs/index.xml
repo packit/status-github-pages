@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>All jobs on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/all-jobs/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-12-03T00:00:00+00:00</lastBuildDate>
+    <updated>2025-12-03T00:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/all-jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Slow/delayed processing of Packit jobs</title>
+        <link>https://status.packit.dev/issues/2025-12-03-service-overflow/</link>
+        <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-12-03-service-overflow/</guid>
+        <category>2025-12-03T15:00:00&#43;00:00</category>
+        <description>Packit Service was overflown with tasks (most likely caused by Copr having trouble starting builds), hit resource limits and as a result stopped processing tasks for about 9 hours. We&amp;rsquo;ve increased resources and got things running, but it will take a while before the accumulated queue of tasks is processed and things get back to normal.
+Update: the queue has been processed, everything should be back to normal.</description>
+        <content type="html">&lt;p&gt;Packit Service was overflown with tasks (most likely caused by Copr having trouble starting builds),
+hit resource limits and as a result stopped processing tasks for about 9 hours.
+We&amp;rsquo;ve increased resources and got things running, but it will take a while before the accumulated
+queue of tasks is processed and things get back to normal.&lt;/p&gt;
+&lt;p&gt;Update: the queue has been processed, everything should be back to normal.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>
