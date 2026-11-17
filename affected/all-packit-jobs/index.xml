@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>All packit jobs on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/all-packit-jobs/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-11-15T08:30:00+00:00</lastBuildDate>
+    <updated>2026-11-15T08:30:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/all-packit-jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Packit is down due to unplanned maintenance.</title>
+        <link>https://status.packit.dev/issues/2026-11-16-packit-down/</link>
+        <pubDate>Sun, 15 Nov 2026 08:30:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2026-11-16-packit-down/</guid>
+        <category>2026-11-16T20:30:00&#43;01:00</category>
+        <description>Packit is currently down due to unplanned maintenance. We apologize for the inconvenience. We will post an update when the service is restored.
+Update: Packit jobs are all working again. You may need to retrigger some of them if they failed. Please follow the instructions for your job type here: https://packit.dev/docs/retriggering</description>
+        <content type="html">&lt;p&gt;Packit is currently down due to unplanned maintenance.
+We apologize for the inconvenience.
+We will post an update when the service is restored.&lt;/p&gt;
+&lt;p&gt;Update:
+Packit jobs are all working again.
+You may need to retrigger some of them if they failed.
+Please follow the instructions for your job type here:
+&lt;a href=&#34;https://packit.dev/docs/retriggering&#34;&gt;https://packit.dev/docs/retriggering&lt;/a&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Anitya (Release Monitoring) on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/anitya-release-monitoring/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-06-30T01:00:00+00:00</lastBuildDate>
+    <updated>2025-06-30T01:00:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/anitya-release-monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Fedora Infra - Datacenter Move outage</title>
+        <link>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</link>
+        <pubDate>Mon, 30 Jun 2025 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2025-06-30-fedora-infra-migration/</guid>
+        <category>2025-07-04T21:00:00&#43;00:00</category>
+        <description>Fedora Infrastructure is currently ongoing migration to different datacenter, during this migration majority of the contributor-facing services will be down.
+Therefore it is expected that sync-release (i.e., propose-downstream and pull-from-upstream), koji_build, and bodhi_update Packit workflows will be affected.
+Copr build jobs may be disrupted, full outage is not expected.
+For more details watch:
+ Fedora Infrastructure Status Tracking issue for the datacenter move  Update - 4th July Most services in Fedora Infrastructure should be up and running again.</description>
+        <content type="html">&lt;p&gt;Fedora Infrastructure is currently ongoing migration to different datacenter,
+during this migration majority of the contributor-facing services will be down.&lt;/p&gt;
+&lt;p&gt;Therefore it is expected that &lt;code&gt;sync-release&lt;/code&gt; (i.e., &lt;code&gt;propose-downstream&lt;/code&gt; and
+&lt;code&gt;pull-from-upstream&lt;/code&gt;), &lt;code&gt;koji_build&lt;/code&gt;, and &lt;code&gt;bodhi_update&lt;/code&gt; Packit workflows will be
+affected.&lt;/p&gt;
+&lt;p&gt;Copr build jobs may be disrupted, full outage is not expected.&lt;/p&gt;
+&lt;p&gt;For more details watch:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedorastatus.org&#34;&gt;Fedora Infrastructure Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/12603&#34;&gt;Tracking issue for the datacenter move&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;update---4th-july&#34;&gt;Update - 4th July&lt;/h3&gt;
+&lt;p&gt;Most services in Fedora Infrastructure should be up and running again.
+Packit has resumed processing &lt;code&gt;copr_build&lt;/code&gt; jobs, but there are still delays due to jobs being queued during the outage in previous days.
+We are continuing to investigate issues related to pushing and pulling from dist-git, which are currently impacting downstream jobs.
+We’ll share further updates as soon as we have more information.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

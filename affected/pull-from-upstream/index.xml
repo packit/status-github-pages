@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Pull from upstream on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/pull-from-upstream/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-06-26T08:00:00+01:00</lastBuildDate>
+    <updated>2024-06-26T08:00:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/pull-from-upstream/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] release-monitoring.org outage</title>
+        <link>https://status.packit.dev/issues/2024-07-02-release-monitoring.org-outage/</link>
+        <pubDate>Wed, 26 Jun 2024 08:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2024-07-02-release-monitoring.org-outage/</guid>
+        <category>2024-07-03T16:00:00&#43;02:00</category>
+        <description>There is a New Hotness outage resulting in no Bugzillas about new releases being filed. As a result, no Packit update dist-git pull requests will be created.
+There is a workaround: edit your release-monitoring.org project and tick the Check latest release on submit checkbox.
+Update: It seems that the issue has been resolved and new release bugzillas are being filed automatically again.</description>
+        <content type="html">&lt;p&gt;There is a New Hotness outage resulting in no Bugzillas about new releases being filed.
+As a result, no Packit update dist-git pull requests will be created.&lt;/p&gt;
+&lt;p&gt;There is a workaround: edit your release-monitoring.org project and tick the &lt;code&gt;Check latest release on submit&lt;/code&gt; checkbox.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: It seems that the issue has been resolved and new release bugzillas are being filed automatically again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora integration outage</title>
+        <link>https://status.packit.dev/issues/2024-05-27-fedora-outage/</link>
+        <pubDate>Mon, 27 May 2024 14:20:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-05-27-fedora-outage/</guid>
+        <category>2024-05-27T18:35:00&#43;02:00</category>
+        <description>One of dependencies for our Fedora Messaging consumer has not been installed during the image build which resulted in an outage of the Fedora downstream integration.
+Fedora integration is disrupted:
+ since 2pm CEST for our stage deployment since 6pm CEST for our production deployment  Please trigger the respective jobs manually, if you are affected, once the outage has been resolved.
+We are very sorry for the inconvenience!
+Edit #1: Issue has been resolved for both production and staging deployments by rolling back to the previous image builds.</description>
+        <content type="html">&lt;p&gt;One of dependencies for our Fedora Messaging consumer has not been installed
+during the image build which resulted in an outage of the Fedora downstream
+integration.&lt;/p&gt;
+&lt;p&gt;Fedora integration is disrupted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;since 2pm CEST for our stage deployment&lt;/li&gt;
+&lt;li&gt;since 6pm CEST for our production deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please trigger the respective jobs manually, if you are affected, once the outage has been resolved.&lt;/p&gt;
+&lt;p&gt;We are very sorry for the inconvenience!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit #1&lt;/em&gt;: Issue has been resolved for both production and staging deployments
+by rolling back to the previous image builds.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] New Hotness outage </title>
+        <link>https://status.packit.dev/issues/2024-05-16-new-hotness-outage/</link>
+        <pubDate>Thu, 09 May 2024 03:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-05-16-new-hotness-outage/</guid>
+        <category>2024-05-16T14:30:00&#43;02:00</category>
+        <description>There was a New Hotness outage resulting in no Bugzillas about new release being filed. As a result, no Packit update dist-git pull requests were created.
+Please trigger the release syncs manually if you are affected by commenting in any dist-git pull request:
+/packit pull-from-upstream  We are very sorry for the inconvenience!</description>
+        <content type="html">&lt;p&gt;There was a New Hotness outage resulting in no Bugzillas about new release being filed.
+As a result, no Packit update dist-git pull requests were created.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;https://packit.dev/docs/fedora-releases-guide/dist-git-onboarding#pull_from_upstream&#34;&gt;trigger&lt;/a&gt;
+the release syncs manually if you are affected by commenting in any dist-git pull request:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/packit pull-from-upstream
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We are very sorry for the inconvenience!&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Fedora infrastructure authentication problem</title>
+        <link>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</link>
+        <pubDate>Mon, 26 Feb 2024 13:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-02-26-fedora-auth-problem/</guid>
+        <category>2024-02-26T13:28:00&#43;00:00</category>
+        <description>There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it (mostly propose_downstream, pull_from_upstream, koji_build, bodhi_update) as Packit is unable to authenticate. To stay updated on the root cause of this problem, please track this issue.
+The problem should be now resolved. You can retrigger the failed jobs by:
+ /packit propose-downstream comment in any upstream issue /packit pull-from-upstream / /packit koji-build / /packit create-update comment in any dist-git pull-request  </description>
+        <content type="html">&lt;p&gt;There is a problem with authentication in Fedora Infrastructure, leading to failures of jobs that interact with it
+(mostly &lt;code&gt;propose_downstream&lt;/code&gt;, &lt;code&gt;pull_from_upstream&lt;/code&gt;, &lt;code&gt;koji_build&lt;/code&gt;, &lt;code&gt;bodhi_update&lt;/code&gt;)
+as Packit is unable to authenticate. To stay updated on the root cause of this problem, please
+track &lt;a href=&#34;https://pagure.io/fedora-infrastructure/issue/11793&#34;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem should be now resolved. You can retrigger the failed jobs by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/packit propose-downstream&lt;/code&gt; comment in any upstream issue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/packit pull-from-upstream&lt;/code&gt; / &lt;code&gt;/packit koji-build&lt;/code&gt; / &lt;code&gt;/packit create-update&lt;/code&gt; comment in any dist-git pull-request&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Pull From Upstream Outage</title>
+        <link>https://status.packit.dev/issues/2024-02-22-pull-from-upstream-outage/</link>
+        <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2024-02-22-pull-from-upstream-outage/</guid>
+        <category>2024-02-22T14:40:00&#43;00:00</category>
+        <description>pull_from_upstream jobs were not executed properly at the given time frame because of an expired token.
+Please trigger the release syncs manually if you are affected by commenting in any dist-git pull request:
+/packit pull-from-upstream  We are very sorry for the inconvenience!</description>
+        <content type="html">&lt;p&gt;pull_from_upstream jobs were not executed properly at the given time frame because of an expired token.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;https://packit.dev/docs/fedora-releases-guide#retriggering-1&#34;&gt;trigger&lt;/a&gt;
+the release syncs manually if you are affected by commenting in any dist-git pull request:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/packit pull-from-upstream
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We are very sorry for the inconvenience!&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

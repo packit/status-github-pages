@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.packit.dev"/>
+    <title>Dashboard on Packit Service Status</title>
+    <link>https://status.packit.dev/affected/dashboard/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-02-03T15:15:00+01:00</lastBuildDate>
+    <updated>2025-02-03T15:15:00+01:00</updated>
+    
+    
+    
+      <atom:link href="https://status.packit.dev/affected/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2025-02-03-maintenance/</link>
+        <pubDate>Mon, 03 Feb 2025 15:15:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2025-02-03-maintenance/</guid>
+        <category>2025-02-03T15:25:00&#43;01:00</category>
+        <description>Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper redeployment without any inconsistencies.
+We expect an outage for up to 15 minutes. There will be no jobs processed from 2025-02-03 15:15 UTC till the successful redeployment.
+In case you are affected, please retrigger the jobs accordingly (via comments, or Re-Run button on GitHub Checks) once the outage is over.
+Thanks for the understanding.</description>
+        <content type="html">&lt;p&gt;Today&amp;rsquo;s weekly production deployment requires a smaller outage to ensure proper
+redeployment without any inconsistencies.&lt;/p&gt;
+&lt;p&gt;We expect an outage for up to 15 minutes. There will be no jobs processed from
+&lt;code&gt;2025-02-03 15:15 UTC&lt;/code&gt; till the successful redeployment.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comments,
+or Re-Run button on GitHub Checks) once the outage is over.&lt;/p&gt;
+&lt;p&gt;Thanks for the understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance outage</title>
+        <link>https://status.packit.dev/issues/2024-10-09-maintenance/</link>
+        <pubDate>Wed, 09 Oct 2024 20:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2024-10-09-maintenance/</guid>
+        <category>2024-10-10T20:10:00&#43;02:00</category>
+        <description>Database volume needs to be enlarged to accomodate the load on the Packit Service. To minimize the amount of jobs affected by this maintenance there will be no jobs processed, but they should be enqueued until the outage is over.
+In case you are affected, please retrigger the jobs accordingly (via comment on the affected pull requests, or Re-Run button on GitHub Checks).
+Thanks for understanding.</description>
+        <content type="html">&lt;p&gt;Database volume needs to be enlarged to accomodate the load on the Packit
+Service. To minimize the amount of jobs affected by this maintenance there will
+be no jobs processed, but they should be enqueued until the outage is over.&lt;/p&gt;
+&lt;p&gt;In case you are affected, please retrigger the jobs accordingly (via comment on
+the affected pull requests, or Re-Run button on GitHub Checks).&lt;/p&gt;
+&lt;p&gt;Thanks for understanding.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cluster upgrade</title>
+        <link>https://status.packit.dev/issues/2023-10-02-cluster-upgrade/</link>
+        <pubDate>Mon, 02 Oct 2023 08:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-10-02-cluster-upgrade/</guid>
+        <category>2023-10-02T10:00:00&#43;00:00</category>
+        <description>A cluster upgrade is scheduled to start on Mon October 2nd at 08:00 UTC and last approximately 90 minutes.
+We do not expect any significant disruption.
+The started jobs might be executed with a delay and if you think Packit does not react to your events, try to retrigger the action via comment command.</description>
+        <content type="html">&lt;p&gt;A cluster upgrade is scheduled to start on Mon October 2nd at 08:00 UTC and last approximately 90 minutes.&lt;/p&gt;
+&lt;p&gt;We do not expect any significant disruption.&lt;/p&gt;
+&lt;p&gt;The started jobs might be executed with a delay
+and if you think Packit does not react to your events,
+try to retrigger the action via
+&lt;a href=&#34;https://packit.dev/docs/guide/#how-to-re-trigger-packit-actions-in-your-pull-request&#34;&gt;comment command&lt;/a&gt;.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cluster Update</title>
+        <link>https://status.packit.dev/issues/2023-05-03-cluster-update/</link>
+        <pubDate>Wed, 03 May 2023 10:00:00 +0200</pubDate>
+        <guid>https://status.packit.dev/issues/2023-05-03-cluster-update/</guid>
+        <category>2023-05-03T11:15:00&#43;02:00</category>
+        <description>The OpenShift cluster is currently updating from 4.11.28 to 4.12.13</description>
+        <content type="html">&lt;p&gt;The OpenShift cluster is currently updating from 4.11.28 to 4.12.13&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Scheduled DB Cleanup</title>
+        <link>https://status.packit.dev/issues/2023-04-26-scheduled-db-cleanup/</link>
+        <pubDate>Wed, 26 Apr 2023 04:40:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2023-04-26-scheduled-db-cleanup/</guid>
+        <category>2023-04-26T05:17:00&#43;00:00</category>
+        <description>We are running a DB maintenance in order to clean up old pipelines. We expect API performance to improve as a result of this.
+The maintenance window is planned for an hour, the actual clean up activities will last approximately 20 minutes. Users might experience degraded performance of the service and dashboard during this time.</description>
+        <content type="html">&lt;p&gt;We are running a DB maintenance in order to clean up old pipelines. We expect
+API performance to improve as a result of this.&lt;/p&gt;
+&lt;p&gt;The maintenance window is planned for an hour, the actual clean up activities
+will last approximately 20 minutes. Users might experience degraded
+performance of the service and dashboard during this time.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SLO1 Error Budget issues</title>
+        <link>https://status.packit.dev/issues/2023-03-09-slo1-error-budget/</link>
+        <pubDate>Thu, 09 Mar 2023 10:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-03-09-slo1-error-budget/</guid>
+        <category>2023-06-08T10:00:00&#43;01:00</category>
+        <description>We are having SLO1 error budget issues.
+These are mostly caused by performance issues, we are working on them and prioritizing more improvements (see https://github.com/packit/packit-service/issues/1954 ).
+We are sorry for any slowness you can experience.</description>
+        <content type="html">&lt;p&gt;We are having &lt;a href=&#34;https://packit.dev/docs/service-level-objectives/&#34;&gt;SLO1&lt;/a&gt; error budget issues.&lt;/p&gt;
+&lt;p&gt;These are mostly caused by performance issues, we are working on them and prioritizing more improvements (see &lt;a href=&#34;https://github.com/packit/packit-service/issues/1954&#34;&gt;https://github.com/packit/packit-service/issues/1954&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;We are sorry for any slowness you can experience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Running grouping migrations</title>
+        <link>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</link>
+        <pubDate>Tue, 14 Feb 2023 02:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-14-running-grouping-migrations/</guid>
+        <category>2023-02-14T04:00:00&#43;01:00</category>
+        <description>We are updating our database schema to facilitate further development. As a part of this process, multiple database migrations will have to be run. The first step is grouping together related builds and test runs. The migrations will happen during the next deployment to production, on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to take roughly 40 minutes, after which the service should come back up.</description>
+        <content type="html">&lt;p&gt;We are updating our database schema to facilitate further development.
+As a part of this process, multiple database migrations will have to
+be run. The first step is grouping together related builds and test
+runs. The migrations will happen during the next deployment to production,
+on Tuesday February 14 at 2:00AM CET. This set of migrations is expected to
+take roughly 40 minutes, after which the service should come back up.&lt;/p&gt;
+&lt;p&gt;Since significant refactoring was paired with these changes, there may
+be some bugs/regressions that we did not spot on staging. Please,
+contact us via the usual means if you spot anything suspicious.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SLO2 Error Budget Depleted in a Day</title>
+        <link>https://status.packit.dev/issues/2023-02-17-slo2-error-budget-depleted-in-a-day/</link>
+        <pubDate>Tue, 31 Jan 2023 10:00:00 +0100</pubDate>
+        <guid>https://status.packit.dev/issues/2023-02-17-slo2-error-budget-depleted-in-a-day/</guid>
+        <category>2023-02-01T10:00:00&#43;01:00</category>
+        <description>The SLO2 error budget dropped from 85% all the way down to zero in one day. The likely cause was that the fedora-messaging consumer was stuck, so we were not getting messages from Copr about finished SRPM builds. Luckily, the babysit tasks proved to be very useful and caught those later.
+We&amp;rsquo;ve added a liveness probe to the messaging consumer to prevent this from happening again.</description>
+        <content type="html">&lt;p&gt;The SLO2 error budget dropped from 85% all the way down to zero in one day.
+&lt;img src=&#34;https://status.packit.dev/images/SLO2-error-budget-depleted.png&#34; alt=&#34;SLO2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The likely cause was that the fedora-messaging consumer was stuck, so we
+were not getting messages from Copr about finished SRPM builds.
+Luckily, the babysit tasks proved to be very useful and caught those later.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve &lt;a href=&#34;https://github.com/packit/packit-service-fedmsg/pull/76&#34;&gt;added a liveness probe to the messaging consumer&lt;/a&gt;
+to prevent this from happening again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Problems with production database</title>
+        <link>https://status.packit.dev/issues/2021-11-18-production-db-problems/</link>
+        <pubDate>Thu, 18 Nov 2021 02:33:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-18-production-db-problems/</guid>
+        <category>2021-11-19 00:10:00</category>
+        <description>After moving our production service to a new cluster, we&amp;rsquo;re seeing intermittent issues with connecting to the database. They are mostly manifesting in the dashboard. We need to decide next steps.</description>
+        <content type="html">&lt;p&gt;After moving our production service to a new cluster, we&amp;rsquo;re seeing intermittent issues
+with connecting to the database. They are mostly manifesting in the dashboard.
+We need to decide next steps.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Moving production Packit Service to a new cluster</title>
+        <link>https://status.packit.dev/issues/2021-11-16-auto-prod/</link>
+        <pubDate>Thu, 18 Nov 2021 01:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-11-16-auto-prod/</guid>
+        <category>2021-11-18 02:33:00</category>
+        <description>We are going to move deployment of our production Packit Service to a new cluster. It should take about 1/2 an hour, during which the workers will be down and queries to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated. Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are up again.</description>
+        <content type="html">&lt;p&gt;We are going to move deployment of our production Packit Service to a new cluster.
+It should take about 1/2 an hour, during which the workers will be down and queries
+to API &amp;amp; dashboard won&amp;rsquo;t work properly because the database will be being migrated.
+Any requests submitted to the API meanwhile should, however, be fulfilled once the workers are
+up again.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] PostgreSQL db upgrade</title>
+        <link>https://status.packit.dev/issues/2021-06-04-postgresql-12/</link>
+        <pubDate>Fri, 04 Jun 2021 07:00:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-04-postgresql-12/</guid>
+        <category>2021-06-04 09:10:40&#43;00:00</category>
+        <description>Upgrading our PostgreSQL database from version 10 to version 12.</description>
+        <content type="html">&lt;p&gt;Upgrading our PostgreSQL database from version 10 to version 12.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Dashboard - unable to connect</title>
+        <link>https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/</link>
+        <pubDate>Wed, 02 Jun 2021 11:16:00 +0000</pubDate>
+        <guid>https://status.packit.dev/issues/2021-06-02-dashboard-unable-to-connect/</guid>
+        <category>2021-06-02 11:40:00</category>
+        <description>API was down and therefore Dashboard was not showing any Jobs and after some time a &amp;ldquo;unable to connect &amp;hellip;&amp;rdquo; error was shown.
+Cause: Unknown
+Fix: After restarting the API, the Dashboard started to work OK.</description>
+        <content type="html">&lt;p&gt;&lt;strong&gt;API&lt;/strong&gt; was down and therefore &lt;strong&gt;Dashboard&lt;/strong&gt; was not showing any Jobs
+and after some time a &amp;ldquo;unable to connect &amp;hellip;&amp;rdquo; error was shown.&lt;/p&gt;
+&lt;p&gt;Cause:
+Unknown&lt;/p&gt;
+&lt;p&gt;Fix:
+After restarting the API, the Dashboard started to work OK.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

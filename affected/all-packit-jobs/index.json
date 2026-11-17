@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "All packit jobs",
+  "permalink": "https://status.packit.dev/affected/all-packit-jobs/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Packit is down due to unplanned maintenance.",
+        "createdAt": "2026-11-15 08:30:00 +0000 UTC",
+        "lastMod": "2026-11-17 09:46:23 +0100 +0100",
+        "permalink": "https://status.packit.dev/issues/2026-11-16-packit-down/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2026-11-16T20:30:00+01:00",
+        "affected": ["All packit jobs"],
+        "filename": "2026-11-16-packit-down.md"
+      }
+    
+  ]
+}
+
+
+
+
+

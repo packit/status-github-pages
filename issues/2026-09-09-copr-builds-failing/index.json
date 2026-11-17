@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Copr builds failing",
+  "createdAt": "2026-09-09 16:30:00 +0200 +0200",
+  "lastMod": "2026-11-17 09:46:23 +0100 +0100",
+  "permalink": "https://status.packit.dev/issues/2026-09-09-copr-builds-failing/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2026-09-09T19:30:00+02:00",
+  "affected": ["Copr"],
+  "filename": "2026-09-09-copr-builds-failing.md"
+}
